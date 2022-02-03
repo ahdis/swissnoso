@@ -12,9 +12,3 @@ Description: "CH IG Example SNOMED CT value set is just an other example!"
 * $sct#34486009 "Hyperthyroidism (disorder)"
 * $sct#73211009 "Diabetes mellitus (disorder)"
 
-
-ValueSet: ChIgExampleTranslation
-Id: ch-ig-example-translation
-Title: "CH IG Example Translation"
-Description: "CH IG Example Tranlation value set is just an example with translated values!"
-* include codes from system $CSChIgExampleTranslation
