@@ -1,4 +1,4 @@
-Instance: Encounter14200210624
+Instance: Encounter-14200210624
 InstanceOf: $ChCoreEncounter
 Usage: #example
 Title: "Encounter 14200210624"
@@ -13,7 +13,7 @@ Description: "Example of a Swissnoso encounter (UC 14200)"
 * serviceProvider = Reference(SpitalTannenwald)
 
 
-Instance: Encounter44371210708
+Instance: Encounter-44371210708
 InstanceOf: $ChCoreEncounter
 Usage: #example
 Title: "Encounter 44371210708"
