@@ -1,6 +1,7 @@
 // External Code Systems
 Alias:   $lnc =                         http://loinc.org
 Alias:   $sct =                         http://snomed.info/sct
+Alias:   $ucum =                        http://unitsofmeasure.org
 
 // HL7 Code Systems
 Alias:   $v3-ActCode =                  http://terminology.hl7.org/CodeSystem/v3-ActCode
