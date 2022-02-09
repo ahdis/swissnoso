@@ -21,7 +21,7 @@ Description: "This profile constrains the Patient resource to represent the char
 // TBD: * birthDate obeys swissnoso-pat-
 
 
-// --------------- Structure Definition --------------- //
+// --------------- Mapping --------------- //
 Mapping: CAUTISurveillanceVariables-for-SwissnosoPatient
 Source: SwissnosoPatient
 Target: "https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_D/211222_CAUTI_Surveillance_Variablen_und_Analyseplan.pdf"
