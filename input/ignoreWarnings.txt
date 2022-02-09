@@ -1,1 +1,4 @@
 == Suppressed Messages ==
+
+# No example, because it is a base profile for more specific profiles
+WARNING: StructureDefinition.where(url = 'http://fhir.ch/ig/swissnoso/StructureDefinition/swissnoso-procedure'): The Implementation Guide contains no examples for this profile
