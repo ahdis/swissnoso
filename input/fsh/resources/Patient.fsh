@@ -33,6 +33,7 @@ Title: "CAUTI Surveillance Variables"
 
 
 // --------------- Instances --------------- //
+// https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Narrative.20Content.20-.3E.20Patient.2EbirthDate
 Instance: AnnaMeier
 InstanceOf: SwissnosoPatient
 Usage: #example
