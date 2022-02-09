@@ -42,3 +42,14 @@ Description: "Example of a Swissnoso patient (UC 14200)"
 * identifier[LocalPid].value = "14200"
 * gender = #female
 * birthDate = "1933"
+
+
+Instance: LisaGuggisberg
+InstanceOf: SwissnosoPatient
+Usage: #example
+Title: "Lisa Guggisberg"
+Description: "Example of a Swissnoso patient (UC 44371)"
+* identifier[LocalPid].system = "http://fhir.tannenwald.ch/pid"
+* identifier[LocalPid].value = "44371"
+* gender = #female
+* birthDate = "1943"
