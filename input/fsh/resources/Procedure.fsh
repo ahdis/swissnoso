@@ -1,5 +1,16 @@
+// --------------- Structure Definition --------------- //
+Profile: SwissnosoProcedure
+Parent: Procedure
+Id: swissnoso-procedure
+Title: "Swissnoso Procedure"
+Description: "This profile constrains the Procedure resource to ..."
+* . ^short = "Swissnoso Procedure"
+* extension contains TransurethralProcedure named transurethralProcedure 0..1
+
+
+// --------------- Instances --------------- //
 Instance: InsertCatheter14200210624
-InstanceOf: Procedure
+InstanceOf: SwissnosoProcedure
 Usage: #example
 Title: "Insert Catheter (14200210624)"
 Description: "Example of a Swissnoso procedure to insert a catheter (integrated in use case 14200)"
@@ -9,6 +20,7 @@ Description: "Example of a Swissnoso procedure to insert a catheter (integrated 
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
 * location = Reference(Bettenstation)
 * reasonCode = $indication#3 "Operation"
+* extension[transurethralProcedure].valueBoolean = false
 
 
 Instance: RemoveCatheter14200210624
