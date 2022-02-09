@@ -37,7 +37,7 @@ Instance: AnnaMeier
 InstanceOf: SwissnosoPatient
 Usage: #example
 Title: "Anna Meier"
-Description: "Example of a Swissnoso patient (integrated in use case 14200)"
+Description: "Example of a Swissnoso patient (UC 14200)"
 * identifier[LocalPid].system = "http://fhir.tannenwald.ch/pid"
 * identifier[LocalPid].value = "14200"
 * gender = #female
