@@ -6,19 +6,16 @@ Title: "Swissnoso Patient"
 Description: "This profile constrains the Patient resource to represent the characteristics of a patient in the context of a report to Swissnoso."
 * . ^short = "Swissnoso Patient"
 
-// Patienten-Nummer (PID) / PatientenNummer_4
 * identifier[LocalPid]. ^short = "Patient number (PID)"
 * identifier[LocalPid] 1..1
 
-// 4.Geschlecht (1. männlich, 2. weiblich)
-* gender. ^short = "Gender (male, female)"
+* gender. ^short = "Gender (male | female)"
 * gender 1..
-// TBD: * gender obeys swissnoso-pat-
+* gender obeys swissnoso-pat-1
 
-// Geburtsjahr / Geburtsjahr_370
-* birthDate. ^short = "Birth year (format: YYYY)"
+* birthDate. ^short = "Year of birth (format: YYYY)"
 * birthDate 1..
-// TBD: * birthDate obeys swissnoso-pat-
+* birthDate obeys swissnoso-pat-2
 
 
 // --------------- Mapping --------------- //
@@ -27,13 +24,14 @@ Source: SwissnosoPatient
 Target: "https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_D/211222_CAUTI_Surveillance_Variablen_und_Analyseplan.pdf"
 Id: CAUTISurveillanceVariables
 Title: "CAUTI Surveillance Variables"
-* identifier[LocalPid] -> "1.1 a) 1. Patienten-Nummer (PID)"
-* gender -> "1.1 a) 4. Geschlecht (1. männlich, 2. weiblich)"
-* birthDate -> "1.1 a) 3. Geburtsjahr"
+* identifier[LocalPid]  -> "1.1 a) 1. Patient number (PID)"
+* gender                -> "1.1 a) 4. Gender (1. male, 2. female)"
+* birthDate             -> "1.1 a) 3. Year of birth"
 
 
 // --------------- Instances --------------- //
 // https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Narrative.20Content.20-.3E.20Patient.2EbirthDate
+
 Instance: AnnaMeier
 InstanceOf: SwissnosoPatient
 Usage: #example
@@ -44,6 +42,15 @@ Description: "Example of a Swissnoso patient (UC 14200)"
 * gender = #female
 * birthDate = "1933"
 
+Instance: FridolinMueller
+InstanceOf: SwissnosoPatient
+Usage: #example
+Title: "Fridolin Müller"
+Description: "Example of a Swissnoso patient (UC 181521)"
+* identifier[LocalPid].system = "http://fhir.tannenwald.ch/pid"
+* identifier[LocalPid].value = "181521"
+* gender = #male
+* birthDate = "1931"
 
 Instance: LisaGuggisberg
 InstanceOf: SwissnosoPatient
