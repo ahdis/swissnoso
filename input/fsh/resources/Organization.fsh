@@ -13,7 +13,7 @@ Title: "Chirurgie Spital Tannenwald"
 Description: "Example of a Swissnoso organization (department)"
 * name = "Chirurgische Abteilung des Spitals Tannenwald"
 * partOf = Reference(SpitalTannenwald)
-* type = $organization-unit#1 "Chirurgie (SUR)"
+* type = $organizationunit#1 "Chirurgie (SUR)"
 
 
 Instance: MedizinSpitalTannenwald
@@ -23,4 +23,4 @@ Title: "Medizin Spital Tannenwald"
 Description: "Example of a Swissnoso organization (department)"
 * name = "Medizinische Abteilung des Spitals Tannenwald"
 * partOf = Reference(SpitalTannenwald)
-* type = $organization-unit#2 "Medizin (MED)"
+* type = $organizationunit#2 "Medizin (MED)"

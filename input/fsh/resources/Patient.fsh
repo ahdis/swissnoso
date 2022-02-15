@@ -9,7 +9,7 @@ Description: "This profile constrains the Patient resource to represent the char
 * identifier[LocalPid]. ^short = "Patient number (PID)"
 * identifier[LocalPid] 1..1
 
-* gender. ^short = "Gender (male | female)"
+* gender. ^short = "Gender (male, female)"
 * gender 1..
 * gender obeys swissnoso-pat-1
 

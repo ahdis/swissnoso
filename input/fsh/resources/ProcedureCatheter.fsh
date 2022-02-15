@@ -1,14 +1,4 @@
 // --------------- Structure Definition --------------- //
-Profile: SwissnosoProcedure
-Parent: Procedure
-Id: swissnoso-procedure
-Title: "Swissnoso Procedure"
-Description: "This profile constrains the Procedure resource to ..."
-* . ^short = "Swissnoso Procedure"
-//* encounter only Reference(SwissnosoEncounter)
-* encounter 1..
-* subject only Reference(SwissnosoPatient)
-
 
 Profile: SwissnosoProcedureInsertCatheter
 Parent: SwissnosoProcedure

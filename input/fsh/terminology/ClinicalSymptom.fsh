@@ -1,5 +1,5 @@
 CodeSystem: ClinicalSymptom
-Id: clinical-symptom
+Id: clinicalsymptom
 Title: "Clinical Symptom"
 Description: "TBD"
 * ^caseSensitive = false
@@ -14,7 +14,7 @@ Description: "TBD"
 
 
 ValueSet: ClinicalSymptom
-Id: clinical-symptom
+Id: clinicalsymptom
 Title: "Clinical Symptom"
 Description: "TBD"
 * include codes from system ClinicalSymptom

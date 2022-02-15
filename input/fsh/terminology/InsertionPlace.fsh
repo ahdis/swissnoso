@@ -1,5 +1,5 @@
 CodeSystem: InsertionPlace
-Id: insertion-place
+Id: insertionplace
 Title: "Insertion Place"
 Description: "TBD"
 * ^caseSensitive = false
@@ -14,7 +14,7 @@ Description: "TBD"
 
 
 ValueSet: InsertionPlace
-Id: insertion-place
+Id: insertionplace
 Title: "Insertion Place"
 Description: "TBD"
 * include codes from system InsertionPlace

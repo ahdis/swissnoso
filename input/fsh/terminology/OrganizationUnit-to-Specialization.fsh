@@ -4,11 +4,11 @@ Usage: #definition
 * name = "SpecializationMap"
 * title = "Organization Unit to Specialization Mapping"
 * status = #active
-* description = "Mapping to describe the relationships between organization units and specialization"
+* description = "Mapping to describe the relationships between organization units and specialization."
 
-* sourceUri = "http://fhir.ch/ig/swissnoso/ValueSet/organization-unit"
+* sourceUri = "http://fhir.ch/ig/swissnoso/ValueSet/organizationunit"
 * targetUri = "http://fhir.ch/ig/swissnoso/ValueSet/specialization"
-* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/organization-unit"
+* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/organizationunit"
 * group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/specialization"
 
 // Operative Fachgebiete (SUR)

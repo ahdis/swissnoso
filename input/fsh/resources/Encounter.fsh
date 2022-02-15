@@ -1,5 +1,18 @@
+// --------------- Structure Definition --------------- //
+Profile: SwissnosoEncounter
+Parent: $ChCoreEncounter
+Id: swissnoso-encounter
+Title: "Swissnoso Encounter"
+Description: "This profile constrains the Encounter resource to represent the characteristics of a encounter in the context of a report to Swissnoso."
+* . ^short = "Swissnoso Encounter"
+
+* subject 1..
+* subject only Reference(SwissnosoPatient)
+
+
+// --------------- Instances --------------- //
 Instance: Encounter-14200210624
-InstanceOf: $ChCoreEncounter
+InstanceOf: SwissnosoEncounter
 Usage: #example
 Title: "Encounter 14200210624"
 Description: "Example of a Swissnoso encounter (UC 14200)"
@@ -14,7 +27,7 @@ Description: "Example of a Swissnoso encounter (UC 14200)"
 
 
 Instance: Encounter-44371210708
-InstanceOf: $ChCoreEncounter
+InstanceOf: SwissnosoEncounter
 Usage: #example
 Title: "Encounter 44371210708"
 Description: "Example of a Swissnoso encounter (UC 44371)"

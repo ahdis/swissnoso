@@ -1,5 +1,5 @@
 CodeSystem: OrganizationUnit
-Id: organization-unit
+Id: organizationunit
 Title: "Organization Unit"
 Description: "TBD"
 * ^caseSensitive = false
@@ -20,7 +20,7 @@ Description: "TBD"
 
 
 ValueSet: OrganizationUnit
-Id: organization-unit
+Id: organizationunit
 Title: "Organization Unit"
 Description: "TBD"
 * include codes from system OrganizationUnit

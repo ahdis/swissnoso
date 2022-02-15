@@ -12,9 +12,11 @@ Alias:   $ChCoreEncounter =             http://fhir.ch/ig/ch-core/StructureDefin
 Alias:   $ChCoreOrganization =          http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization
 
 // Swissnoso
-Alias:   $insertion-place =             http://fhir.ch/ig/swissnoso/CodeSystem/insertion-place
+Alias:   $insertionplace =              http://fhir.ch/ig/swissnoso/CodeSystem/insertionplace
 Alias:   $indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/indication
 Alias:   $germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/germ
-Alias:   $clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/clinical-symptom
-Alias:   $organization-unit =           http://fhir.ch/ig/swissnoso/CodeSystem/organization-unit
+Alias:   $clinicalsymptom =             http://fhir.ch/ig/swissnoso/CodeSystem/clinicalsymptom
+Alias:   $organizationunit =            http://fhir.ch/ig/swissnoso/CodeSystem/organizationunit
 Alias:   $specialization =              http://fhir.ch/ig/swissnoso/CodeSystem/specialization
+Alias:   $numberofdifferentgerms =      http://fhir.ch/ig/swissnoso/CodeSystem/numberofdifferentgerms
+Alias:   $bacterialcountinurine =       http://fhir.ch/ig/swissnoso/CodeSystem/bacterialcountinurine

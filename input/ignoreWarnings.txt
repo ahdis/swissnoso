@@ -2,3 +2,7 @@
 
 # No example, because it is a base profile for more specific profiles
 WARNING: StructureDefinition.where(url = 'http://fhir.ch/ig/swissnoso/StructureDefinition/swissnoso-procedure'): The Implementation Guide contains no examples for this profile
+WARNING: StructureDefinition.where(url = 'http://fhir.ch/ig/swissnoso/StructureDefinition/swissnoso-observation'): The Implementation Guide contains no examples for this profile
+
+# Build error
+The link '../output/ConceptMap-bfs-encounter-class-to-fhir.html' for "BFS Encounter Class to FHIR mapping" cannot be resolved
