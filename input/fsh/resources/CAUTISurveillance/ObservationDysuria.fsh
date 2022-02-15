@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Dysuria"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom dysuria in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Dysuria"
 
-* valueBoolean. ^short = "Dysuria"
+* valueBoolean. ^short = "Dysuria (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#6

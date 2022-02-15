@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Angle Pain or Tenderness"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom costovertebral angle pain or tenderness in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Angle Pain or Tenderness"
 
-* valueBoolean. ^short = "Costovertebral angle pain or tenderness"
+* valueBoolean. ^short = "Costovertebral angle pain or tenderness (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#3

@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Urinary Urgency"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom urinary urgency in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Fever"
 
-* valueBoolean. ^short = "Urinary urgency"
+* valueBoolean. ^short = "Urinary urgency (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#4

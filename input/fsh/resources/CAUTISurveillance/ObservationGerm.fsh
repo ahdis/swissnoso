@@ -7,6 +7,7 @@ Description: "This profile constrains the Observation resource to represent the 
 * . ^short = "Swissnoso Observation Germ"
 
 * code from Germ (preferred)
+* code. ^short = "Germ"
 
 * effectiveDateTime 1..
 

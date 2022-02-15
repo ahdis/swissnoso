@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Suprapubic Tenderness"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom suprapubic tenderness in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Suprapubic Tenderness"
 
-* valueBoolean. ^short = "Suprapubic tenderness"
+* valueBoolean. ^short = "Suprapubic tenderness (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#2 

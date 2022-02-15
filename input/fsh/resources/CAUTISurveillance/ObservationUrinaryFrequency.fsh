@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Urinary Frequency"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom urinary frequency in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Urinary Frequency"
 
-* valueBoolean. ^short = "Urinary frequency"
+* valueBoolean. ^short = "Urinary frequency (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#5

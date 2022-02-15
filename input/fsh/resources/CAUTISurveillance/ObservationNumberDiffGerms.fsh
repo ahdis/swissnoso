@@ -11,7 +11,7 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueCodeableConcept 1..
 
 * code = $sct#number
-* code. ^short = "Number of Different Germs"
+* code. ^short = "Number of different germs"
 
 * effectiveDateTime 1..
 

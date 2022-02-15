@@ -7,7 +7,7 @@ Title: "Swissnoso Observation Fever"
 Description: "This profile constrains the Observation resource to represent the presence/absence of the symptom fever in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Fever"
 
-* valueBoolean. ^short = "Fever >38.0°C (ear)"
+* valueBoolean. ^short = "Fever >38.0°C (ear) (yes/no)"
 * valueBoolean 1..
 
 * code = $clinicalsymptom#1 
