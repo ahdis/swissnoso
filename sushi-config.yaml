@@ -32,8 +32,12 @@ dependencies:
 pages:
   index.md:
     title: Home
-  usecase-de.md:
-    title: Anwendungsfälle  
+  usecases-de.md:
+    title: Anwendungsfälle
+  usecases-fr.md:
+    title: Cas d’application
+  usecases-it.md:
+    title: Casi di applicazione      
   profiles.md:
     title: Profiles
   extensions.md:

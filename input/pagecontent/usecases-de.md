@@ -1,6 +1,6 @@
 ### CAUTI Surveillance
 
-#### Fallweise Meldung aller katheterisierten Personen
+#### Fallweise Meldung aller Patienten mit einem Blasenkatheter
 
 ##### UC 14200
 Frau [Anna Meier](Patient-AnnaMeier.html), Jahrgang 1933, tritt am 24.06.2021 in die [chirurgische Abteilung](Organization-ChirurgieSpitalTannenwald.html) des [Spitals Tannenwald](Organization-SpitalTannenwald.html) ein. Die Spitaladministration eröffnet für diesen stationären Aufenthalt einen Fall mit der [Fall-Nummer 14200210624](Encounter-Encounter-14200210624.html).   
