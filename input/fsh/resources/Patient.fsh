@@ -30,7 +30,8 @@ Title: "CAUTI Surveillance Variables"
 
 
 // --------------- Instances --------------- //
-// https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Narrative.20Content.20-.3E.20Patient.2EbirthDate
+// TBD: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/Narrative.20Content.20-.3E.20Patient.2EbirthDate
+// TBD: Anonymous Patient (no stated gender) 1933-01-01 ( Medical record number: 14200)
 
 Instance: AnnaMeier
 InstanceOf: SwissnosoPatient
