@@ -25,5 +25,3 @@ Description: "This profile constrains the Observation resource to represent the 
 
 * encounter only Reference(SwissnosoEncounter)
 * encounter 1..
-
-* effectiveDateTime 1..

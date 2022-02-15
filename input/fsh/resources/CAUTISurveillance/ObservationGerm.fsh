@@ -8,6 +8,8 @@ Description: "This profile constrains the Observation resource to represent the 
 
 * code from Germ (preferred)
 
+* effectiveDateTime 1..
+
 * valueCodeableConcept from BacterialCountInUrine (preferred)
 * valueCodeableConcept. ^short = "Bacterial count in urine (<10E5 CFU/ml, >=10E5 CFU/ml)"
 * valueCodeableConcept 1..

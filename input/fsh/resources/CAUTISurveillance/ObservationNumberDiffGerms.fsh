@@ -10,8 +10,10 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueCodeableConcept. ^short = "Number of different germs (0, 1, 2, >2)"
 * valueCodeableConcept 1..
 
-* code = $sct#tbd
+* code = $sct#number
 * code. ^short = "Number of Different Germs"
+
+* effectiveDateTime 1..
 
 * partOf only Reference(SwissnosoProcedureMicrobiology)
 * partOf 1..1
@@ -38,7 +40,7 @@ Usage: #example
 Title: "Number of Different Germs (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $sct#tbd "Number of Different Germs"
+* code = $sct#number "Number of Different Germs"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"

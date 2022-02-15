@@ -13,6 +13,9 @@ Description: "This profile constrains the Procedure resource to represent the mi
 * performedDateTime 1..
 * performedDateTime. ^short = "Sampling date"
 
+* reasonReference only Reference(SwissnosoObservationSymptoms)
+* reasonReference 1..1
+
 
 
 
@@ -38,4 +41,4 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * performedDateTime = "2021-07-09"
 * code = $sct#269934003 "Microbiology (procedure)"
 * encounter = Reference(Encounter-44371210708)
-
+* reasonReference = Reference(Symptoms-20210709-44371210708)
