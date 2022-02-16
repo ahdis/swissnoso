@@ -11,7 +11,7 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueBoolean 1..
 
 * code = $clinicalsymptom#1 
-* code. ^short = "Fever >38.0°C"
+* code. ^short = "Fever >38.0°C (ear)"
 
 * effectiveDateTime. ^short = "Date of symptom onset"
 * effectiveDateTime 1..
@@ -35,7 +35,7 @@ Usage: #example
 Title: "No Fever (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $clinicalsymptom#1 "Fieber >38.0°C"
+* code = $clinicalsymptom#1 "Fieber >38.0°C (Ohr)"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
