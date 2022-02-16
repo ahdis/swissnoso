@@ -39,6 +39,3 @@ This profile constrains the Observation resource to represent the presence/absen
    * [Swissnoso Observation Dysuria](StructureDefinition-swissnoso-observation-dysuria.html)   
    This profile constrains the Observation resource to represent the presence/absence of the symptom dysuria in the context of the CAUTI Surveillance module.
 
-
-### Work in Progress (to remove)
-{% include list-profiles.xhtml %}
