@@ -14,6 +14,8 @@ This profile constrains the Observation resource to represent the characteristic
 ### CAUTI Surveillance
 The CAUTI Surveillance profiles define the context for this specific Swissnoso module.
 
+{% include img.html img="profiles-cauti.png" caption="Fig. 1: Profiles for the context of CAUTI Surveillance" width="70%" %}
+
 * [Swissnoso Procedure Microbiology](StructureDefinition-swissnoso-procedure-microbiology.html)   
 This profile constrains the Procedure resource to represent the microbiology in the context of the CAUTI Surveillance module.
 
