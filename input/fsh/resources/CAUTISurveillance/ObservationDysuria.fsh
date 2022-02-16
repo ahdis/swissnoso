@@ -37,6 +37,6 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $swissnoso-clinical-symptom#6 "Dysurie"
 * subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
+* encounter = Reference(Encounter-Unit-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueBoolean = false

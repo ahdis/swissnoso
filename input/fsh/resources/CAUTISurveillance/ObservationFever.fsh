@@ -37,7 +37,7 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
 * subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
+* encounter = Reference(Encounter-Unit-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueBoolean = false
 

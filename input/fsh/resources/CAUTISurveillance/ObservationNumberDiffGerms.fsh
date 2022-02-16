@@ -42,7 +42,7 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $sct#number "Number of Different Germs"
 * subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
+* encounter = Reference(Encounter-Unit-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueCodeableConcept = $swissnoso-number-of-different-germs#1 "1"
 * partOf = Reference(Microbiology-20210709-44371210708)

@@ -40,5 +40,5 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * subject = Reference(LisaGuggisberg)
 * performedDateTime = "2021-07-09"
 * code = $sct#269934003 "Microbiology (procedure)"
-* encounter = Reference(Encounter-44371210708)
+* encounter = Reference(Encounter-Unit-44371210708)
 * reasonReference = Reference(Symptoms-20210709-44371210708)

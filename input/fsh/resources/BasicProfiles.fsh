@@ -8,7 +8,7 @@ Description: "This profile constrains the Procedure resource to represent the ch
 
 * subject only Reference(SwissnosoPatient)
 
-* encounter only Reference(SwissnosoEncounter)
+* encounter only Reference(SwissnosoEncounterUnit)
 * encounter 1..
 
 
@@ -23,5 +23,5 @@ Description: "This profile constrains the Observation resource to represent the 
 * subject only Reference(SwissnosoPatient)
 * subject 1..
 
-* encounter only Reference(SwissnosoEncounter)
+* encounter only Reference(SwissnosoEncounterUnit)
 * encounter 1..
