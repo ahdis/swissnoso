@@ -1,6 +1,6 @@
-CodeSystem: Specialization
-Id: specialization
-Title: "Specialization"
+CodeSystem: SwissnosoSpecialization
+Id: swissnoso-specialization
+Title: "Swissnoso Specialization"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -463,8 +463,8 @@ Description: "TBD"
 
 
 
-ValueSet: Specialization
-Id: specialization
-Title: "Specialization"
+ValueSet: SwissnosoSpecialization
+Id: swissnoso-specialization
+Title: "Swissnoso Specialization"
 Description: "TBD"
-* include codes from system Specialization
+* include codes from system SwissnosoSpecialization

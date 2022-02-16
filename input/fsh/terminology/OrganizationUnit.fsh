@@ -1,6 +1,6 @@
-CodeSystem: OrganizationUnit
-Id: organizationunit
-Title: "Organization Unit"
+CodeSystem: SwissnosoOrganizationUnit
+Id: swissnoso-organization-unit
+Title: "Swissnoso Organization Unit"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -103,8 +103,8 @@ Description: "TBD"
 
 
 
-ValueSet: OrganizationUnit
-Id: organizationunit
-Title: "Organization Unit"
+ValueSet: SwissnosoOrganizationUnit
+Id: swissnoso-organization-unit
+Title: "Swissnoso Organization Unit"
 Description: "TBD"
-* include codes from system OrganizationUnit
+* include codes from system SwissnosoOrganizationUnit

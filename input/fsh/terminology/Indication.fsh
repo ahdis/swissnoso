@@ -1,6 +1,6 @@
-CodeSystem: Indication
-Id: indication
-Title: "Indication"
+CodeSystem: SwissnosoIndication
+Id: swissnoso-indication
+Title: "Swissnoso Indication"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -63,8 +63,8 @@ Description: "TBD"
 
 
 
-ValueSet: Indication
-Id: indication
-Title: "Indication"
+ValueSet: SwissnosoIndication
+Id: swissnoso-indication
+Title: "Swissnoso Indication"
 Description: "TBD"
-* include codes from system Indication
+* include codes from system SwissnosoIndication

@@ -39,4 +39,4 @@ Description: "Example of a Swissnoso encounter (UC 44371)"
 * period.start = "2021-07-08"
 * period.end = "2021-07-14"
 * serviceProvider = Reference(SpitalTannenwald)
-* serviceType = $specialization#22 "Allgemeinmedizin (MEDGEN)"
+* serviceType = $swissnoso-specialization#22 "Allgemeinmedizin (MEDGEN)"

@@ -12,11 +12,11 @@ Alias:   $ChCoreEncounter =             http://fhir.ch/ig/ch-core/StructureDefin
 Alias:   $ChCoreOrganization =          http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization
 
 // Swissnoso
-Alias:   $insertionplace =              http://fhir.ch/ig/swissnoso/CodeSystem/insertionplace
-Alias:   $indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/indication
-Alias:   $germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/germ
-Alias:   $clinicalsymptom =             http://fhir.ch/ig/swissnoso/CodeSystem/clinicalsymptom
-Alias:   $organizationunit =            http://fhir.ch/ig/swissnoso/CodeSystem/organizationunit
-Alias:   $specialization =              http://fhir.ch/ig/swissnoso/CodeSystem/specialization
-Alias:   $numberofdifferentgerms =      http://fhir.ch/ig/swissnoso/CodeSystem/numberofdifferentgerms
-Alias:   $bacterialcountinurine =       http://fhir.ch/ig/swissnoso/CodeSystem/bacterialcountinurine
+Alias:   $swissnoso-insertion-place =             http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-insertion-place
+Alias:   $swissnoso-indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-indication
+Alias:   $swissnoso-germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-germ
+Alias:   $swissnoso-clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-clinical-symptom
+Alias:   $swissnoso-organization-unit =           http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-organization-unit
+Alias:   $swissnoso-specialization =              http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialization
+Alias:   $swissnoso-number-of-different-germs =   http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-number-of-different-germs
+Alias:   $swissnoso-bacterial-count-in-urine =    http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-bacterial-count-in-urine

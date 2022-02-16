@@ -6,7 +6,7 @@ Id: swissnoso-procedure-insert-catheter
 Title: "Swissnoso Procedure Insert Catheter"
 Description: "This profile constrains the Procedure resource to ..."
 * . ^short = "Swissnoso Procedure Insert Catheter"
-* extension contains TransurethralProcedure named transurethralProcedure 0..1
+* extension contains SwissnosoTransurethralProcedure named transurethralProcedure 0..1
 * code = $sct#410024004
 * code. ^short = "Catheterization of urinary bladder (procedure)"
 //* location only Reference(SwissnosoLocation)
@@ -34,7 +34,7 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 * performedDateTime = "2021-07-01"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
 * location = Reference(Bettenstation)
-* reasonCode = $indication#3 "Operation"
+* reasonCode = $swissnoso-indication#3 "Operation"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-14200210624)
 
@@ -62,7 +62,7 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * performedDateTime = "2021-07-08"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
 * location = Reference(Bettenstation)
-* reasonCode = $indication#1 "Harnverhalt"
+* reasonCode = $swissnoso-indication#1 "Harnverhalt"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-44371210708)
 

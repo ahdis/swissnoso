@@ -6,12 +6,12 @@ Title: "Swissnoso Observation Germ"
 Description: "This profile constrains the Observation resource to represent the germ in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Germ"
 
-* code from Germ (preferred)
+* code from SwissnosoGerm (preferred)
 * code. ^short = "Germ"
 
 * effectiveDateTime 1..
 
-* valueCodeableConcept from BacterialCountInUrine (preferred)
+* valueCodeableConcept from SwissnosoBacterialCountInUrine (preferred)
 * valueCodeableConcept. ^short = "Bacterial count in urine (<10E5 CFU/ml, >=10E5 CFU/ml)"
 * valueCodeableConcept 1..
 
@@ -39,9 +39,9 @@ Usage: #example
 Title: "Germ 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $germ#1 "E. coli"
+* code = $swissnoso-germ#1 "E. coli"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
-* valueCodeableConcept = $bacterialcountinurine#1 "<10E5 CFU/ml"
+* valueCodeableConcept = $swissnoso-bacterial-count-in-urine#1 "<10E5 CFU/ml"
 * partOf = Reference(Microbiology-20210709-44371210708)

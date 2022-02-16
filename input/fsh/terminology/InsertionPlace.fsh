@@ -1,6 +1,6 @@
-CodeSystem: InsertionPlace
-Id: insertionplace
-Title: "Insertion Place"
+CodeSystem: SwissnosoInsertionPlace
+Id: swissnoso-insertion-place
+Title: "Swissnoso Insertion Place"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -63,8 +63,8 @@ Description: "TBD"
 
 
 
-ValueSet: InsertionPlace
-Id: insertionplace
-Title: "Insertion Place"
+ValueSet: SwissnosoInsertionPlace
+Id: swissnoso-insertion-place
+Title: "Swissnoso Insertion Place"
 Description: "TBD"
-* include codes from system InsertionPlace
+* include codes from system SwissnosoInsertionPlace

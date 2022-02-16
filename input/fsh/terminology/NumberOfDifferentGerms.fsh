@@ -1,6 +1,6 @@
-CodeSystem: NumberOfDifferentGerms
-Id: numberofdifferentgerms
-Title: "Number of Different Germs"
+CodeSystem: SwissnosoNumberOfDifferentGerms
+Id: swissnoso-number-of-different-germs
+Title: "Swissnoso Number of Different Germs"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -12,8 +12,8 @@ Description: "TBD"
 
 
 
-ValueSet: NumberOfDifferentGerms
-Id: numberofdifferentgerms
-Title: "Number of Different Germs"
+ValueSet: SwissnosoNumberOfDifferentGerms
+Id: swissnoso-number-of-different-germs
+Title: "Swissnoso Number of Different Germs"
 Description: "TBD"
-* include codes from system NumberOfDifferentGerms
+* include codes from system SwissnosoNumberOfDifferentGerms

@@ -1,6 +1,6 @@
-CodeSystem: Germ
-Id: germ
-Title: "Germ"
+CodeSystem: SwissnosoGerm
+Id: swissnoso-germ
+Title: "Swissnoso Germ"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -55,8 +55,8 @@ Description: "TBD"
 
 
 
-ValueSet: Germ
-Id: germ
-Title: "Germ"
+ValueSet: SwissnosoGerm
+Id: swissnoso-germ
+Title: "Swissnoso Germ"
 Description: "TBD"
-* include codes from system Germ
+* include codes from system SwissnosoGerm

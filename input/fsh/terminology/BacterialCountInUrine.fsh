@@ -1,6 +1,6 @@
-CodeSystem: BacterialCountInUrine 
-Id: bacterialcountinurine 
-Title: "Bacterial count in urine"
+CodeSystem: SwissnosoBacterialCountInUrine 
+Id: swissnoso-bacterial-count-in-urine 
+Title: "Swissnoso Bacterial Count in Urine"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -11,8 +11,8 @@ Description: "TBD"
 
 
 
-ValueSet: BacterialCountInUrine
-Id: bacterialcountinurine
-Title: "Bacterial count in urine"
+ValueSet: SwissnosoBacterialCountInUrine
+Id: swissnoso-bacterial-count-in-urine
+Title: "Swissnoso Bacterial Count in Urine"
 Description: "TBD"
-* include codes from system BacterialCountInUrine
+* include codes from system SwissnosoBacterialCountInUrine

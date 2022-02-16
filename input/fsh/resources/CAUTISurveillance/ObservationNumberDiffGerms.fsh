@@ -1,12 +1,12 @@
 // --------------- Structure Definition --------------- //
 Profile: SwissnosoObservationNumberOfDifferentGerms
 Parent: SwissnosoObservation
-Id: swissnoso-observation-numberofdifferentgerms
+Id: swissnoso-observation-number-of-different-germs
 Title: "Swissnoso Observation Number of Different Germs"
-Description: "This profile constrains the Observation resource to represent the number of different germs in the context of the CAUTI Surveillance module."
+Description: "This profile constrains the Observation resource to represent the number of different swissnoso-germs in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Number of Different Germs"
 
-* valueCodeableConcept from NumberOfDifferentGerms (preferred)
+* valueCodeableConcept from SwissnosoNumberOfDifferentGerms (preferred)
 * valueCodeableConcept. ^short = "Number of different germs (0, 1, 2, >2)"
 * valueCodeableConcept 1..
 
@@ -44,7 +44,7 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
-* valueCodeableConcept = $numberofdifferentgerms#1 "1"
+* valueCodeableConcept = $swissnoso-number-of-different-germs#1 "1"
 * partOf = Reference(Microbiology-20210709-44371210708)
 * hasMember = Reference(Germ1-20210709-44371210708)
 

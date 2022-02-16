@@ -10,7 +10,7 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueBoolean. ^short = "Dysuria (yes/no)"
 * valueBoolean 1..
 
-* code = $clinicalsymptom#6
+* code = $swissnoso-clinical-symptom#6
 * code. ^short = "Dysuria"
 
 * effectiveDateTime. ^short = "Date of symptom onset"
@@ -35,7 +35,7 @@ Usage: #example
 Title: "No Dysuria (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $clinicalsymptom#6 "Dysurie"
+* code = $swissnoso-clinical-symptom#6 "Dysurie"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"

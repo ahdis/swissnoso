@@ -1,6 +1,6 @@
-CodeSystem: ClinicalSymptom
-Id: clinicalsymptom
-Title: "Clinical Symptom"
+CodeSystem: SwissnosoClinicalSymptom
+Id: swissnoso-clinical-symptom
+Title: "Swissnoso Clinical Symptom"
 Description: "TBD"
 * ^caseSensitive = false
 * ^content = #complete
@@ -56,8 +56,8 @@ Description: "TBD"
 
 
 
-ValueSet: ClinicalSymptom
-Id: clinicalsymptom
-Title: "Clinical Symptom"
+ValueSet: SwissnosoClinicalSymptom
+Id: swissnoso-clinical-symptom
+Title: "Swissnoso Clinical Symptom"
 Description: "TBD"
-* include codes from system ClinicalSymptom
+* include codes from system SwissnosoClinicalSymptom

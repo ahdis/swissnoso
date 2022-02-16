@@ -1,15 +1,15 @@
-Instance: OrganizationUnit-to-Specialization
+Instance: SwissnosoOrganizationUnit-to-SwissnosoSpecialization
 InstanceOf: ConceptMap
 Usage: #definition
-* name = "SpecializationMap"
-* title = "Organization Unit to Specialization Mapping"
+* name = "SwissnosoSpecializationMap"
+* title = "Swissnoso Organization Unit to Swissnoso Specialization Mapping"
 * status = #active
 * description = "Mapping to describe the relationships between organization units and specialization."
 
-* sourceUri = "http://fhir.ch/ig/swissnoso/ValueSet/organizationunit"
-* targetUri = "http://fhir.ch/ig/swissnoso/ValueSet/specialization"
-* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/organizationunit"
-* group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/specialization"
+* sourceUri = "http://fhir.ch/ig/swissnoso/ValueSet/swissnoso-organization-unit"
+* targetUri = "http://fhir.ch/ig/swissnoso/ValueSet/swissnoso-specialization"
+* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-organization-unit"
+* group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialization"
 
 // Operative Fachgebiete (SUR)
 * group.element[+].code = #1 
