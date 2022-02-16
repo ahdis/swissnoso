@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoSpecialization
 Id: swissnoso-specialization
 Title: "Swissnoso Specialization"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the specialization."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -466,5 +466,5 @@ Description: "TBD"
 ValueSet: SwissnosoSpecialization
 Id: swissnoso-specialization
 Title: "Swissnoso Specialization"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Specialization'."
 * include codes from system SwissnosoSpecialization

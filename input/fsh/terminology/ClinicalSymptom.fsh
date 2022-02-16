@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoClinicalSymptom
 Id: swissnoso-clinical-symptom
 Title: "Swissnoso Clinical Symptom"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the clinical symptom."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -59,5 +59,5 @@ Description: "TBD"
 ValueSet: SwissnosoClinicalSymptom
 Id: swissnoso-clinical-symptom
 Title: "Swissnoso Clinical Symptom"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Clinical Symptom'."
 * include codes from system SwissnosoClinicalSymptom

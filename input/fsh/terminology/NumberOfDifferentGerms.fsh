@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoNumberOfDifferentGerms
 Id: swissnoso-number-of-different-germs
 Title: "Swissnoso Number of Different Germs"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the number of different germs."
 * ^caseSensitive = false
 * ^content = #complete
 * #0 "0"
@@ -15,5 +15,5 @@ Description: "TBD"
 ValueSet: SwissnosoNumberOfDifferentGerms
 Id: swissnoso-number-of-different-germs
 Title: "Swissnoso Number of Different Germs"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Number of Different Germs'."
 * include codes from system SwissnosoNumberOfDifferentGerms

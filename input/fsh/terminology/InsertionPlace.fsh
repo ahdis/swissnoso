@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoInsertionPlace
 Id: swissnoso-insertion-place
 Title: "Swissnoso Insertion Place"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the insertion place."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -66,5 +66,5 @@ Description: "TBD"
 ValueSet: SwissnosoInsertionPlace
 Id: swissnoso-insertion-place
 Title: "Swissnoso Insertion Place"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Insertion Place'."
 * include codes from system SwissnosoInsertionPlace

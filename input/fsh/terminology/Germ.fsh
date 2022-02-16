@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoGerm
 Id: swissnoso-germ
 Title: "Swissnoso Germ"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the germ."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -58,5 +58,5 @@ Description: "TBD"
 ValueSet: SwissnosoGerm
 Id: swissnoso-germ
 Title: "Swissnoso Germ"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Germ'."
 * include codes from system SwissnosoGerm

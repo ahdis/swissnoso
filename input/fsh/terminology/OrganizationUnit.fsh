@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoOrganizationUnit
 Id: swissnoso-organization-unit
 Title: "Swissnoso Organization Unit"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the organization unit."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -106,5 +106,5 @@ Description: "TBD"
 ValueSet: SwissnosoOrganizationUnit
 Id: swissnoso-organization-unit
 Title: "Swissnoso Organization Unit"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Organization Unit'."
 * include codes from system SwissnosoOrganizationUnit

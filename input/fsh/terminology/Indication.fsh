@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoIndication
 Id: swissnoso-indication
 Title: "Swissnoso Indication"
-Description: "TBD"
+Description: "This code system contains codes defined by Swissnoso to define the indication."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -66,5 +66,5 @@ Description: "TBD"
 ValueSet: SwissnosoIndication
 Id: swissnoso-indication
 Title: "Swissnoso Indication"
-Description: "TBD"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Indication'."
 * include codes from system SwissnosoIndication
