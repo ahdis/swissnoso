@@ -22,7 +22,7 @@ Instance: SpitalTannenwald
 InstanceOf: SwissnosoOrganization
 Usage: #example
 Title: "Spital Tannenwald"
-Description: "Example of a Swissnoso organization (hospital)"
+Description: "Example of a Swissnoso organization"
 * identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
 * identifier[swissnoso].value = "1234"
 
