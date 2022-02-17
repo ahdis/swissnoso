@@ -13,8 +13,9 @@ Description: "This profile constrains the Observation resource to represent the 
 * code = $swissnoso-clinical-symptom#4
 * code. ^short = "Urinary urgency"
 
+* obeys swissnoso-obs-2
 * effectiveDateTime. ^short = "Date of symptom onset"
-* effectiveDateTime 1..
+//* effectiveDateTime 1..
 
 
 

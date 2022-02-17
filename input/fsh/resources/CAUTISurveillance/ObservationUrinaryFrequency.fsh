@@ -13,8 +13,9 @@ Description: "This profile constrains the Observation resource to represent the 
 * code = $swissnoso-clinical-symptom#5
 * code. ^short = "Urinary frequency"
 
+* obeys swissnoso-obs-2
 * effectiveDateTime. ^short = "Date of symptom onset"
-* effectiveDateTime 1..
+//* effectiveDateTime 1..
 
 
 
@@ -38,6 +39,6 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * code = $swissnoso-clinical-symptom#5 "Pollakisurie"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-Unit-44371210708)
-* effectiveDateTime = "2021-07-09"
+//* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
 

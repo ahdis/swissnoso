@@ -13,8 +13,9 @@ Description: "This profile constrains the Observation resource to represent the 
 * code = $swissnoso-clinical-symptom#1 
 * code. ^short = "Fever >38.0°C (ear)"
 
+* obeys swissnoso-obs-2
 * effectiveDateTime. ^short = "Date of symptom onset"
-* effectiveDateTime 1..
+//* effectiveDateTime 1..
 
 
 
@@ -38,6 +39,5 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-Unit-44371210708)
-* effectiveDateTime = "2021-07-09"
+//* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
-

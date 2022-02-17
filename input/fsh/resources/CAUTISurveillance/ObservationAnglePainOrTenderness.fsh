@@ -13,8 +13,9 @@ Description: "This profile constrains the Observation resource to represent the 
 * code = $swissnoso-clinical-symptom#3
 * code. ^short = "Costovertebral angle pain or tenderness"
 
+* obeys swissnoso-obs-2
 * effectiveDateTime. ^short = "Date of symptom onset"
-* effectiveDateTime 1..
+//* effectiveDateTime 1..
 
 
 
@@ -39,5 +40,5 @@ Description: "Example of a Swissnoso observation (UC 44371)"
 * code = $swissnoso-clinical-symptom#3 "Flankenschmerzen oder -klopfdolenz"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-Unit-44371210708)
-* effectiveDateTime = "2021-07-09"
+//* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
