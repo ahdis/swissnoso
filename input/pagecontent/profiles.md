@@ -14,6 +14,9 @@ This profile constrains the Organization resource to represent the characteristi
    * [Swissnoso Organization Unit](StructureDefinition-swissnoso-organization-unit.html)	   
    This profile constrains the Organization resource to represent the characteristics of an organization as an unit in the context of a report to Swissnoso.
 
+* [Swissnoso Location](StructureDefinition-swissnoso-location.html)    
+This profile constrains the Location resource to represent the characteristics of a location in the context of a report to Swissnoso.
+
 * [Swissnoso Procedure](StructureDefinition-swissnoso-procedure.html)     
 This profile constrains the Procedure resource to represent the characteristics of a procedure in the context of a report to Swissnoso.
 * [Swissnoso Observation](StructureDefinition-swissnoso-observation.html)    
@@ -23,7 +26,12 @@ This profile constrains the Observation resource to represent the characteristic
 ### CAUTI Surveillance
 The CAUTI Surveillance profiles define the context for this specific Swissnoso module.
 
-{% include img.html img="profiles-cauti.png" caption="Fig. 1: Profiles for the context of CAUTI Surveillance" width="70%" %}
+{% include img.html img="profiles-cauti.png" caption="Fig. 1: Profiles for the context of CAUTI Surveillance" width="100%" %}
+
+* [Swissnoso Procedure Insert Catheter](StructureDefinition-swissnoso-procedure-insert-catheter.html)      
+This profile constrains the Procedure resource to represent the procedure of inserting a catheter in the context of the CAUTI Surveillance module.
+* [Swissnoso Procedure Remove Catheter](StructureDefinition-swissnoso-procedure-remove-catheter.html)      
+This profile constrains the Procedure resource to represent the procedure of removing a catheter in the context of the CAUTI Surveillance module.
 
 * [Swissnoso Procedure Microbiology](StructureDefinition-swissnoso-procedure-microbiology.html)   
 This profile constrains the Procedure resource to represent the microbiology in the context of the CAUTI Surveillance module.

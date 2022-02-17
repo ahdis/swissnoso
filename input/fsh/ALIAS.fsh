@@ -10,6 +10,7 @@ Alias:   $v3-ActCode =                  http://terminology.hl7.org/CodeSystem/v3
 Alias:   $ChCorePatient =               http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient
 Alias:   $ChCoreEncounter =             http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-encounter
 Alias:   $ChCoreOrganization =          http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-organization
+Alias:   $ChCoreLocation =              http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-location
 
 // Swissnoso
 Alias:   $swissnoso-insertion-place =             http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-insertion-place
