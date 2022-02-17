@@ -25,7 +25,7 @@ Description: "This profile constrains the Encounter resource to represent the ch
 * period.end 1..
 * period.end. ^short = "Date of discharge from the monitored organizational units"
 
-* serviceType from SwissnosoSpecialization (preferred)
+* serviceType from SwissnosoSpecialty (preferred)
 * serviceType. ^short = "Specialty"
 
 
@@ -74,4 +74,4 @@ Description: "Example of a Swissnoso encounter (UC 44371)"
 * period.end = "2021-07-14"
 * partOf = Reference(Encounter-Hospital-44371210708)
 * serviceProvider = Reference(AbteilungMedizin)
-* serviceType = $swissnoso-specialization#22 "Allgemeinmedizin (MEDGEN)"
+* serviceType = $swissnoso-specialty#22 "Allgemeinmedizin (MEDGEN)"

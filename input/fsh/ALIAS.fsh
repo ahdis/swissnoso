@@ -17,6 +17,6 @@ Alias:   $swissnoso-indication =                  http://fhir.ch/ig/swissnoso/Co
 Alias:   $swissnoso-germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-germ
 Alias:   $swissnoso-clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-clinical-symptom
 Alias:   $swissnoso-organization-unit =           http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-organization-unit
-Alias:   $swissnoso-specialization =              http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialization
+Alias:   $swissnoso-specialty =              http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialty
 Alias:   $swissnoso-number-of-different-germs =   http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-number-of-different-germs
 Alias:   $swissnoso-bacterial-count-in-urine =    http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-bacterial-count-in-urine

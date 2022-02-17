@@ -1,7 +1,7 @@
-CodeSystem: SwissnosoSpecialization
-Id: swissnoso-specialization
-Title: "Swissnoso Specialization"
-Description: "This code system contains codes defined by Swissnoso to define the specialization."
+CodeSystem: SwissnosoSpecialty
+Id: swissnoso-specialty
+Title: "Swissnoso Specialty"
+Description: "This code system contains codes defined by Swissnoso to define the specialty."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -463,8 +463,8 @@ Description: "This code system contains codes defined by Swissnoso to define the
 
 
 
-ValueSet: SwissnosoSpecialization
-Id: swissnoso-specialization
-Title: "Swissnoso Specialization"
-Description: "This value set includes the codes defined in the code system 'Swissnoso Specialization'."
-* include codes from system SwissnosoSpecialization
+ValueSet: SwissnosoSpecialty
+Id: swissnoso-specialty
+Title: "Swissnoso Specialty"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Specialty'."
+* include codes from system SwissnosoSpecialty
