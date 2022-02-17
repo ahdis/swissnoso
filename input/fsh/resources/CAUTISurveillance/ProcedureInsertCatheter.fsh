@@ -51,7 +51,7 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 * location = Reference(Bettenstation)
 * reasonCode = $swissnoso-indication#3 "Operation"
 * extension[transurethralProcedure].valueBoolean = false
-* encounter = Reference(Encounter-Unit-14200210624)
+* encounter = Reference(Encounter-14200210624)
 
 
 
@@ -67,4 +67,4 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * location = Reference(Bettenstation)
 * reasonCode = $swissnoso-indication#1 "Harnverhalt"
 * extension[transurethralProcedure].valueBoolean = false
-* encounter = Reference(Encounter-Unit-44371210708)
+* encounter = Reference(Encounter-44371210708)

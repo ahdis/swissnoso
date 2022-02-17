@@ -43,9 +43,9 @@ Title: "Germ 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#87829-8 "Bacteria [Presence] in Urine"
-* extension[germ].valueCodeableConcept = $swissnoso-germ#1 "E. coli"
+* extension[germ].valueCoding = $swissnoso-germ#1 "E. coli"
 * subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-Unit-44371210708)
+* encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueCodeableConcept = $swissnoso-bacterial-count-in-urine#1 "<10E5 CFU/ml"
 * partOf = Reference(Microbiology-20210709-44371210708)

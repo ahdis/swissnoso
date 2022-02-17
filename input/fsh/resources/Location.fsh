@@ -10,7 +10,7 @@ Description: "This profile constrains the Location resource to represent the cha
 * physicalType from SwissnosoInsertionPlace (preferred)
 
 * managingOrganization 1..
-* managingOrganization only Reference(SwissnosoOrganizationHospital)
+* managingOrganization only Reference(SwissnosoOrganization)
 
 
 

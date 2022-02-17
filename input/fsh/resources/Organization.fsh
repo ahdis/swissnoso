@@ -1,9 +1,9 @@
 // --------------- Structure Definition --------------- //
-Profile: SwissnosoOrganizationHospital
+Profile: SwissnosoOrganization
 Parent: $ChCoreOrganization
-Id: swissnoso-organization-hospital
-Title: "Swissnoso Organization Hospital"
-Description: "This profile constrains the Organization resource to represent the characteristics of an organization as a hospital in the context of a report to Swissnoso."
+Id: swissnoso-organization
+Title: "Swissnoso Organization"
+Description: "This profile constrains the Organization resource to represent the characteristics of an organization in the context of a report to Swissnoso."
 * . ^short = "Swissnoso Organization"
 
 //* identifier ..*
@@ -19,7 +19,7 @@ Description: "This profile constrains the Organization resource to represent the
 
 // --------------- Instances --------------- //
 Instance: SpitalTannenwald
-InstanceOf: SwissnosoOrganizationHospital
+InstanceOf: SwissnosoOrganization
 Usage: #example
 Title: "Spital Tannenwald"
 Description: "Example of a Swissnoso organization (hospital)"

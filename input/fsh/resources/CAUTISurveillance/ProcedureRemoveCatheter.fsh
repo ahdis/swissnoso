@@ -12,7 +12,7 @@ Description: "This profile constrains the Procedure resource to represent the pr
 * performedDateTime 1..
 * performedDateTime. ^short = "Date of removal"
 
-* reasonReference ..1
+* reasonReference 1..1
 * reasonReference only Reference(SwissnosoProcedureInsertCatheter)
 
 
@@ -35,7 +35,7 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 * subject = Reference(AnnaMeier)
 * performedDateTime = "2021-07-04"
 * code = $sct#43748006 "Removal of urinary bladder catheter (procedure)"
-* encounter = Reference(Encounter-Unit-14200210624)
+* encounter = Reference(Encounter-14200210624)
 * reasonReference = Reference(InsertCatheter-20210701-14200210624)
 
 
@@ -49,5 +49,5 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * subject = Reference(LisaGuggisberg)
 * performedDateTime = "2021-07-09"
 * code = $sct#43748006 "Removal of urinary bladder catheter (procedure)"
-* encounter = Reference(Encounter-Unit-44371210708)
+* encounter = Reference(Encounter-44371210708)
 * reasonReference = Reference(InsertCatheter-20210708-44371210708)

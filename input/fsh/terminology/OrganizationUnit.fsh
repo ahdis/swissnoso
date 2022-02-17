@@ -1,6 +1,6 @@
-CodeSystem: SwissnosoOrganizationUnit
-Id: swissnoso-organization-unit
-Title: "Swissnoso Organization Unit"
+CodeSystem: SwissnosoOrganizationalUnit
+Id: swissnoso-organizational-unit
+Title: "Swissnoso Organizational Unit"
 Description: "This code system contains codes defined by Swissnoso to define the organization unit."
 * ^caseSensitive = false
 * ^content = #complete
@@ -103,8 +103,8 @@ Description: "This code system contains codes defined by Swissnoso to define the
 
 
 
-ValueSet: SwissnosoOrganizationUnit
-Id: swissnoso-organization-unit
-Title: "Swissnoso Organization Unit"
-Description: "This value set includes the codes defined in the code system 'Swissnoso Organization Unit'."
-* include codes from system SwissnosoOrganizationUnit
+ValueSet: SwissnosoOrganizationalUnit
+Id: swissnoso-organizational-unit
+Title: "Swissnoso Organizational Unit"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Organizational Unit'."
+* include codes from system SwissnosoOrganizationalUnit

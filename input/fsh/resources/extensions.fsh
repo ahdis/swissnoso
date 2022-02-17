@@ -6,9 +6,54 @@ Description: "Extension defined by Swissnoso to describe whether the procedure w
 * value[x] 1..
 
 
+
 Extension: SwissnosoGerm
 Id: swissnoso-germ
 Title: "Swissnoso Germ"
 Description: "Extension defined by Swissnoso to describe which germ is present in the urine."
-* valueCodeableConcept 1..
-* valueCodeableConcept from SwissnosoGerm (preferred)
+* valueCoding 1..
+* valueCoding from SwissnosoGerm (preferred)
+
+
+Extension: SwissnosoOrganizationalUnit
+Id: swissnoso-organizational-unit
+Title: "Swissnoso Organizational Unit"
+Description: "Extension defined by Swissnoso to describe the organizational unit with its specialty."
+* extension contains
+    unit 1..1 and
+    specialty 0..1
+
+* extension[unit] ^short = "Organizational unit"
+* extension[unit].value[x] only Coding
+* extension[unit].valueCoding 1..
+* extension[unit].valueCoding from SwissnosoOrganizationalUnit (required)
+
+* extension[specialty] ^short = "Specialty"
+* extension[specialty].value[x] only Coding
+* extension[specialty].valueCoding 1..
+* extension[specialty].valueCoding from SwissnosoSpecialty (required)
+
+// --------------- Mapping --------------- //
+Mapping: CAUTISurveillanceVariables-for-SwissnosoOrganizationalUnit
+Source: SwissnosoOrganizationalUnit
+Target: "https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_D/211222_CAUTI_Surveillance_Variablen_und_Analyseplan.pdf"
+Id: CAUTISurveillanceVariables
+Title: "CAUTI Surveillance Variables"
+* extension[unit]       -> "1.1 a) 5. Organizational Unit"
+* extension[specialty]  -> "1.1 a) 6. Specialty"
+
+
+
+Extension: SwissnosoAdmissionDateToMonitoredOrganizationalUnits
+Id: swissnoso-admission-date-to-monitored-organizational-units
+Title: "Swissnoso Admission Date to Monitored Organizational Units"
+Description: "Extension defined by Swissnoso to describe the date of admission to the monitored organizational units."
+* value[x] only dateTime
+* value[x] 1..
+
+Extension: SwissnosoDischargeDateFromMonitoredOrganizationalUnits
+Id: swissnoso-discharge-date-from-monitored-organizational-units
+Title: "Swissnoso Discharge Date from Monitored Organizational Units"
+Description: "Extension defined by Swissnoso to describe the date of discharge from the monitored organizational units."
+* value[x] only dateTime
+* value[x] 1..
