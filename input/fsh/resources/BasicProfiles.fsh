@@ -11,6 +11,8 @@ Description: "This profile constrains the Procedure resource to represent the ch
 * encounter only Reference(SwissnosoEncounterUnit)
 * encounter 1..
 
+* code 1..
+
 
 
 Profile: SwissnosoObservation
@@ -25,3 +27,5 @@ Description: "This profile constrains the Observation resource to represent the 
 
 * encounter only Reference(SwissnosoEncounterUnit)
 * encounter 1..
+
+* code 1..
