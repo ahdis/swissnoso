@@ -17,4 +17,4 @@ Ein paar Tage später, am 14.07.2021, werden bei Lisa Guiggisberg neben dem Harn
 
 ##### UC xy
 
-{% include img.html img="overview-organizational-units.png" caption="Fig. 1: Overview organizational units" width="80%" %}
+{% include img.html img="overview-organizational-units.png" caption="Fig.: Overview organizational units" width="80%" %}
