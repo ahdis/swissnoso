@@ -18,6 +18,11 @@ This profile constrains the Observation resource to represent the characteristic
 ### CAUTI Surveillance
 The CAUTI Surveillance profiles define the context for this specific Swissnoso module.
 
+* [Swissnoso Message CAUTI Surveillance](StructureDefinition-swissnoso-message-cauti-surveillance.html)     
+This profile constrains the Bundle resource to represent the message in the context of the CAUTI Surveillance module.
+* [Swissnoso MessageHeader CAUTI Surveillance](StructureDefinition-swissnoso-messageheader-cauti-surveillance.html)      
+This profile constrains the MessageHeader resource to represent the first entry in the message in the context of the CAUTI Surveillance module.
+
 {% include img.html img="profiles-cauti.png" caption="Fig.: Profiles for the context of CAUTI Surveillance" width="100%" %}
 
 * [Swissnoso Procedure Insert Catheter](StructureDefinition-swissnoso-procedure-insert-catheter.html)      
