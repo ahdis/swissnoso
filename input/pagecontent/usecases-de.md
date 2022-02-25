@@ -23,5 +23,8 @@ Herr Jean-Luc Richard, Jahrgang 1945, wird am 10.07.2021 mit diffusen Schmerzen 
 Wegen eines Harnverhalts wird bei Jean-Luc Richard am gleichen Tag auf der Bettenstation ein Blasenkatheter gelegt. Im Rahmen der weiteren Abklärungen wird am 11.07.2021 eine Gallenblasenentzündung diagnostiziert und Jean-Luc Richard wird am 12.07.2021 für eine Cholezystektomie auf die Chirurgie (Fachrichtung Abdominalchirurgie) verlegt. Nach der Operation treten Komplikationen auf, und Jean-Luc Richard muss am 13.07.2021 auf die Intensivstation verlegt werden, wo er bis am 15.07.2021 bleibt. Anschliessend wird er wieder auf die chirurgische Bettenstation verlegt, wo am 16.07.2021 der Blasenkatheter entfernt wird. Am 21.07.2021 verlässt Jean-Luc Richard das Spital Bellevue.   
 Das Spital Tannenwald übermittelt die [Fallmeldung](tbd) im Rahmen der CAUTI Surveillance an Swissnoso. 
 
+#### Überwachte Organisationeinheiten
+Im Anwendungsfall von Herr Jean-Luc Richard ([UC 102938](usecases-de.html#uc-102938)) wird die Situation des Spitals Bellevue dargestellt, das mit **einzelnen Organisationseinheiten** und nicht als ganzes Spital an der CAUTI Surveillance teilnimmt.   
+Die untenstehende Abbildung stellt für solche Fälle verallgemeinert dar, welche Angaben relevant sind und wie sie im Bezug zu der/den überwachten Organisationseinheit/en stehen.
 
 {% include img.html img="overview-organizational-units.png" caption="Fig.: Overview organizational units" width="80%" %}
