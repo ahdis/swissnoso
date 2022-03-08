@@ -1,5 +1,5 @@
-Swissnoso is dedicated to the reduction of nosocomial infections and multiresistant germs. For the monitoring and prevention of healthcare-associated infections, [various modules](https://www.swissnoso.ch/module/uebersicht-module) are available. A key element here are the regular reports of module-specific results to Swissnoso.    
-FHIR exchange formats are now being defined iteratively for the various modules for reporting to Swissnoso. FHIR resources with required case data are sent bundled in a FHIR message.
+[Swissnoso](https://www.swissnoso.ch/) is dedicated to the reduction of nosocomial infections and multi-resistant germs. For the monitoring and prevention of healthcare-associated infections, [various modules](https://www.swissnoso.ch/module/uebersicht-module) are available. A key element of the monitoring modules is the regular delivery of module-specific data to Swissnoso.   
+The exchange format for data transmission is defined as a so-called FHIR message, the structure of which is described below.
 
 ### FHIR Message (Bundle)
 The [message](https://www.hl7.org/fhir/messaging.html) consists of a [Bundle](https://www.hl7.org/fhir/bundle.html) identified by the [type](https://www.hl7.org/fhir/bundle-definitions.html#Bundle.type) `message`, with the first resource in the Bundle being a [MessageHeader](https://www.hl7.org/fhir/messageheader.html) resource.    

@@ -46,6 +46,8 @@ pages:
     title: Extensions
   terminology.md:
     title: Terminology
+  changelog.md:
+    title: Change Log    
 
 # Parameters
 # https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
