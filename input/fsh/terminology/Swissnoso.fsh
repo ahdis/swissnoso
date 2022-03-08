@@ -1,6 +1,6 @@
 CodeSystem: Swissnoso
 Id: swissnoso
-Title: "Swissnoso Bacterial Count in Urine"
+Title: "Swissnoso"
 Description: "This code system contains codes defined by Swissnoso to identify the various resources
 for which no international codes (e.g. LOINC or SNOMED CT) could be found that accurately describe 
 the meaning for the Swissnoso context."
