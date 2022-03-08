@@ -1,3 +1,4 @@
+// https://chat.fhir.org/#narrow/stream/179202-terminology/topic/ECDC.20code.20system
 Instance: SwissnosoOrganizationalUnit-to-SwissnosoSpecialty
 InstanceOf: ConceptMap
 Usage: #definition

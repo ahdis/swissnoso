@@ -170,7 +170,7 @@ Usage: #example
 Title: "Number of Different Germs (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $sct#number "Number of Different Germs"
+* code = $swissnoso#number-germs "Number of Different Germs"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
