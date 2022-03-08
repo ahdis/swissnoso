@@ -13,7 +13,7 @@ Alias:   $ChCoreOrganization =          http://fhir.ch/ig/ch-core/StructureDefin
 Alias:   $ChCoreLocation =              http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-location
 
 // Swissnoso
-Alias:   $swissnoso-insertion-place =             http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-insertion-place
+Alias:   $swissnoso-location-of-procedure =       http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-location-of-procedure
 Alias:   $swissnoso-indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-indication
 Alias:   $swissnoso-germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-germ
 Alias:   $swissnoso-clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-clinical-symptom

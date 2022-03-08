@@ -1,7 +1,7 @@
-CodeSystem: SwissnosoInsertionPlace
-Id: swissnoso-insertion-place
-Title: "Swissnoso Insertion Place"
-Description: "This code system contains codes defined by Swissnoso to define the insertion place."
+CodeSystem: SwissnosoLocationOfProcedure
+Id: swissnoso-location-of-procedure
+Title: "Swissnoso Location of Procedure"
+Description: "This code system contains codes defined by Swissnoso to define the location of the procedure."
 * ^caseSensitive = false
 * ^content = #complete
 
@@ -63,8 +63,8 @@ Description: "This code system contains codes defined by Swissnoso to define the
 
 
 
-ValueSet: SwissnosoInsertionPlace
-Id: swissnoso-insertion-place
-Title: "Swissnoso Insertion Place"
-Description: "This value set includes the codes defined in the code system 'Swissnoso Insertion Place'."
-* include codes from system SwissnosoInsertionPlace
+ValueSet: SwissnosoLocationOfProcedure
+Id: swissnoso-location-of-procedure
+Title: "Swissnoso Location of Procedure"
+Description: "This value set includes the codes defined in the code system 'Swissnoso Location of Procedure'."
+* include codes from system SwissnosoLocationOfProcedure
