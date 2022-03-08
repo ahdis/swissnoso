@@ -7,6 +7,13 @@ The purpose of this implementation guide is to specify the exchange format for d
 The CAUTI Surveillance module, which has been available to all Swiss acute care hospitals since January 2022, is used to monitor symptomatic CAUTI as well as catheter use as an indicator of the frequency of CAUTI and non-infectious complications of urinary catheterization. Optionally, hospitals may also record the indication for urinary catheterization. Mandated by the Federal Office of Public Health (FOPH), Swissnoso established the module in 2021 based on the pilot program "progress! Safe urinary catheterization" that Patient Safety Switzerland and Swissnoso conducted together from 2015 to 2018.
 
 ### About this IG
+#### Scope
+* Use Cases ([de](usecases-de.html), [fr](usecases-fr.html), [it](usecases-it.html)) - illustrate possible scenarios in a simple way to help the users understand the context.
+* [Messages](message.html) - are defined as FHIR exchange format for the data transmission to Swissnoso.
+* [Profiles](profiles.html) - are constraints of FHIR resources for the context of reporting to Swissnoso.
+* [Extensions](extensions.html) - are FHIR extensions that are added to be able to represent the complete context.
+* [Terminologies](terminology.html) - have been defined and represented to allow the exchange of coded data.
+* [Artifacts](artifacts.html) - provides a list of the FHIR artifacts included in this implementation guide.
 
 #### Download
 You can download this implementation guide in the [NPM package](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) format from [here](package.tgz).
