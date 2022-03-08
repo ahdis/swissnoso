@@ -24,7 +24,7 @@ Wegen eines Harnverhalts wird bei Jean-Luc Richard am gleichen Tag auf der Bette
 Das Spital Bellevue übermittelt die [Falldaten des Patienten Jean-Luc Richard](tbd) im Rahmen der CAUTI Surveillance an Swissnoso. 
 
 #### Überwachte Organisationeinheiten
-Im Anwendungsfall von Herr Jean-Luc Richard ([UC 102938](usecases-de.html#uc-102938)) wird die Situation des Spitals Bellevue dargestellt, das mit **einzelnen Organisationseinheiten** und nicht als ganzes Spital an der CAUTI Surveillance teilnimmt.   
-Die untenstehende Abbildung stellt für solche Fälle verallgemeinert dar, welche Angaben relevant sind und wie sie im Bezug zu der/den überwachten Organisationseinheit/en stehen.
+Im Anwendungsfall von Herr Jean-Luc Richard ([UC 102938](usecases-de.html#uc-102938)) wird die Situation des Spitals Bellevue dargestellt, das mit **einzelnen Organisationseinheiten** und nicht als ganzes Spital an der CAUTI Surveillance teilnimmt. Die untenstehende Abbildung stellt für solche Fälle verallgemeinert dar, welche Angaben relevant sind und wie sie im Bezug zu der/den überwachten Organisationseinheit/en stehen.   
+Details zu den überwachten Organisationseinheiten können dem [Surveillance-Handbuch](https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_D/220228_Swissnoso_CAUTI_Surveillance_Handbuch_V1.2.pdf) S. 9 entnommen werden.
 
 {% include img.html img="overview-organizational-units.png" caption="Fig.: Overview organizational units" width="80%" %}
