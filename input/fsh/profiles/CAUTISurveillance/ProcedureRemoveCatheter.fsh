@@ -40,14 +40,3 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 
 
 
-Instance: RemoveCatheter-20210709-44371210708
-InstanceOf: SwissnosoProcedureRemoveCatheter
-Usage: #example
-Title: "Remove Catheter (09.07.2021)"
-Description: "Example of a Swissnoso procedure (UC 44371)"
-* status = #completed
-* subject = Reference(LisaGuggisberg)
-* performedDateTime = "2021-07-09"
-* code = $sct#43748006 "Removal of urinary bladder catheter (procedure)"
-* encounter = Reference(Encounter-44371210708)
-* reasonReference = Reference(InsertCatheter-20210708-44371210708)

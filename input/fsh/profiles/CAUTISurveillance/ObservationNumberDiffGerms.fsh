@@ -31,20 +31,3 @@ Id: CAUTISurveillanceVariables
 Title: "CAUTI Surveillance Variables"
 * valueCodeableConcept  -> "1.1 c) 1.2.1 Number of different germs (0, 1, 2, >2)"
 
-
-
-// --------------- Instances --------------- //
-Instance: NumberOfDifferentGerms-20210709-44371210708
-InstanceOf: SwissnosoObservationNumberOfDifferentGerms
-Usage: #example
-Title: "Number of Different Germs (09.07.2021)"
-Description: "Example of a Swissnoso observation (UC 44371)"
-* status = #final
-* code = $sct#number "Number of Different Germs"
-* subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
-* effectiveDateTime = "2021-07-09"
-* valueCodeableConcept = $swissnoso-number-of-different-germs#1 "1"
-* partOf = Reference(Microbiology-20210709-44371210708)
-* hasMember = Reference(Germ1-20210709-44371210708)
-

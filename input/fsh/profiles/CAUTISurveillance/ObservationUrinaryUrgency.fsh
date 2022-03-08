@@ -28,17 +28,3 @@ Title: "CAUTI Surveillance Variables"
 * valueBoolean      -> "1.1 c) 2.4 Urinary urgency (yes/no)"
 * effectiveDateTime -> "1.1 c) 2.4 Urinary urgency - date of symptom onset"
 
-
-// --------------- Instances --------------- //
-Instance: UrinaryUrgency-20210709-44371210708
-InstanceOf: SwissnosoObservationUrinaryUrgency
-Usage: #example
-Title: "Urinary Urgency (09.07.2021)"
-Description: "Example of a Swissnoso observation (UC 44371)"
-* status = #final
-* code = $swissnoso-clinical-symptom#4 "Harndrang"
-* subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
-* effectiveDateTime = "2021-07-09"
-* valueBoolean = true
-

@@ -26,16 +26,3 @@ Description: "This profile constrains the MessageHeader resource to represent th
 * focus[microbiology] only Reference(SwissnosoProcedureMicrobiology)
 * focus[numberOfDifferentGerms] only Reference(SwissnosoObservationNumberOfDifferentGerms)
 
-
-
-
-// --------------- Instances --------------- //
-Instance: MessageHeaderUC14200
-InstanceOf: SwissnosoMessageHeaderCAUTISurveillance
-Usage: #example
-Title: "MessageHeader UC 14200"
-Description: "Example of a Swissnoso message header (UC 14200)"
-* eventUri = "http://fhir.ch/ig/swissnoso/cauti-surveillance"
-* source.endpoint = "http://example.ch/fhir"
-* focus[insertCatheter] = Reference(InsertCatheter-20210701-14200210624)
-* focus[removeCatheter] = Reference(RemoveCatheter-20210704-14200210624)

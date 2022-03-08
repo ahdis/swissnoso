@@ -43,38 +43,3 @@ Title: "CAUTI Surveillance Variables"
 * period.end                                    -> "1.1 a) 9. Date of discharge from hospital"
 * extension[admissionDateOrganizationalUnits]   -> "1.1 a) 8. Date of admission to the monitored organizational units"
 * extension[dischargeDateOrganizationalUnits]   -> "1.1 a) 10. Date of discharge from the monitored organizational units"
-
-
-
-// --------------- Instances --------------- //
-Instance: Encounter-14200210624
-InstanceOf: SwissnosoEncounter
-Usage: #example
-Title: "Encounter 14200210624"
-Description: "Example of a Swissnoso encounter (UC 14200)"
-* identifier[VisitNumber].system = "http://fhir.tannenwald.ch/fid"
-* identifier[VisitNumber].value = "14200210624"
-* status = #finished
-* class = $v3-ActCode#IMP "inpatient encounter"
-* subject = Reference(AnnaMeier)
-* period.start = "2021-06-24"
-* period.end = "2021-07-08"
-* serviceProvider = Reference(SpitalTannenwald)
-* extension[organizationalUnit].extension[unit].valueCoding = $swissnoso-organizational-unit#1 "Chirurgie (SUR)"
-
-
-Instance: Encounter-44371210708
-InstanceOf: SwissnosoEncounter
-Usage: #example
-Title: "Encounter 44371210708"
-Description: "Example of a Swissnoso encounter (UC 44371)"
-* identifier[VisitNumber].system = "http://fhir.tannenwald.ch/fid"
-* identifier[VisitNumber].value = "44371210708"
-* status = #finished
-* class = $v3-ActCode#IMP "inpatient encounter"
-* subject = Reference(LisaGuggisberg)
-* period.start = "2021-07-08"
-* period.end = "2021-07-14"
-* serviceProvider = Reference(SpitalTannenwald)
-* extension[organizationalUnit].extension[unit].valueCoding = $swissnoso-organizational-unit#2 "Medizin (MED)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $swissnoso-specialty#22 "Allgemeinmedizin (MEDGEN)"

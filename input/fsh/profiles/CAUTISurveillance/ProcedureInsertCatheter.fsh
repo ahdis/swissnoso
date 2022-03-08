@@ -55,16 +55,4 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 
 
 
-Instance: InsertCatheter-20210708-44371210708
-InstanceOf: SwissnosoProcedureInsertCatheter
-Usage: #example
-Title: "Insert Catheter (08.07.2021)"
-Description: "Example of a Swissnoso procedure (UC 44371)"
-* status = #completed
-* subject = Reference(LisaGuggisberg)
-* performedDateTime = "2021-07-08"
-* code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(Bettenstation)
-* reasonCode = $swissnoso-indication#1 "Harnverhalt"
-* extension[transurethralProcedure].valueBoolean = false
-* encounter = Reference(Encounter-44371210708)
+

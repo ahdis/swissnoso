@@ -11,4 +11,4 @@ The MessageHeader resource defines so-called [focus](https://www.hl7.org/fhir/me
 ### Swissnoso Messages
 * CAUTI Surveillance
    * Profiles: [Message (Bundle)](StructureDefinition-swissnoso-message-cauti-surveillance.html), [MessageHeader](StructureDefinition-swissnoso-messageheader-cauti-surveillance.html), further [profiles](profiles.html#cauti-surveillance)
-   * Examples: [UC 14200](Bundle-MessageUC14200.html), [UC 181521](tbd), [UC 44371](tbd), [UC 102938](tbd)
+   * Examples: [UC 14200](Bundle-MessageUC14200.html), [UC 181521](Bundle-MessageUC181521.html), [UC 44371](tbd), [UC 102938](tbd)

@@ -17,13 +17,3 @@ Description: "This profile constrains the Organization resource to represent the
 * identifier[swissnoso].value 1..
 
 
-// --------------- Instances --------------- //
-Instance: SpitalTannenwald
-InstanceOf: SwissnosoOrganization
-Usage: #example
-Title: "Spital Tannenwald"
-Description: "Example of a Swissnoso organization"
-* identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
-* identifier[swissnoso].value = "1234"
-
-

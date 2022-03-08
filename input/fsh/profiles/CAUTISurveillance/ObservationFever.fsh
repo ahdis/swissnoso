@@ -27,17 +27,3 @@ Id: CAUTISurveillanceVariables
 Title: "CAUTI Surveillance Variables"
 * valueBoolean      -> "1.1 c) 2.1 Fever >38.0°C (ear) (yes/no)"
 * effectiveDateTime -> "1.1 c) 2.1 Fever >38.0°C (ear) - date of symptom onset"
-
-
-// --------------- Instances --------------- //
-Instance: NoFever-20210709-44371210708
-InstanceOf: SwissnosoObservationFever
-Usage: #example
-Title: "No Fever (09.07.2021)"
-Description: "Example of a Swissnoso observation (UC 44371)"
-* status = #final
-* code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
-* subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
-//* effectiveDateTime = "2021-07-09"
-* valueBoolean = false

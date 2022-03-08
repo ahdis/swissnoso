@@ -28,17 +28,3 @@ Title: "CAUTI Surveillance Variables"
 * valueBoolean      -> "1.1 c) 2.5 Urinary frequency (yes/no)"
 * effectiveDateTime -> "1.1 c) 2.5 Urinary frequency - date of symptom onset"
 
-
-// --------------- Instances --------------- //
-Instance: NoUrinaryFrequency-20210709-44371210708
-InstanceOf: SwissnosoObservationUrinaryFrequency
-Usage: #example
-Title: "No Urinary Frequency (09.07.2021)"
-Description: "Example of a Swissnoso observation (UC 44371)"
-* status = #final
-* code = $swissnoso-clinical-symptom#5 "Pollakisurie"
-* subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
-//* effectiveDateTime = "2021-07-09"
-* valueBoolean = false
-

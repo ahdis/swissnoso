@@ -28,17 +28,3 @@ Title: "CAUTI Surveillance Variables"
 * performedDateTime     -> "1.1 c) 1.1 Sampling date (format: YYYY-MM-DD)"
 * status                -> "1.1 c) 1. Microbiology done (yes/no)"
 
-
-
-// --------------- Instances --------------- //
-Instance: Microbiology-20210709-44371210708
-InstanceOf: SwissnosoProcedureMicrobiology
-Usage: #example
-Title: "Microbiology (09.07.2021)"
-Description: "Example of a Swissnoso procedure (UC 44371)"
-* status = #completed
-* subject = Reference(LisaGuggisberg)
-* performedDateTime = "2021-07-09"
-* code = $sct#269934003 "Microbiology (procedure)"
-* encounter = Reference(Encounter-44371210708)
-* reasonReference = Reference(Symptoms-20210709-44371210708)

@@ -51,25 +51,3 @@ Target: "https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_
 Id: CAUTISurveillanceVariables
 Title: "CAUTI Surveillance Variables"
 * valueBoolean  -> "1.1 c) 2. Symptoms (yes/no)"
-
-
-// --------------- Instances --------------- //
-Instance: Symptoms-20210709-44371210708
-InstanceOf: SwissnosoObservationSymptoms
-Usage: #example
-Title: "Symptoms (09.07.2021)"
-Description: "Example of a Swissnoso observation (UC 44371)"
-* status = #final
-* code = $sct#symptoms "Symptoms"
-* subject = Reference(LisaGuggisberg)
-* encounter = Reference(Encounter-44371210708)
-* effectiveDateTime = "2021-07-09"
-* valueBoolean = true
-
-* hasMember[fever] = Reference(NoFever-20210709-44371210708)
-* hasMember[suprapubicTenderness] = Reference(NoSuprapubicTenderness-20210709-44371210708)
-* hasMember[anglePainOrTenderness] = Reference(NoAnglePainOrTenderness-20210709-44371210708)
-* hasMember[urinaryUrgency] = Reference(UrinaryUrgency-20210709-44371210708)
-* hasMember[urinaryFrequency] = Reference(NoUrinaryFrequency-20210709-44371210708)
-* hasMember[dysuria] = Reference(NoDysuria-20210709-44371210708)
-
