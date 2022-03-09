@@ -34,25 +34,3 @@ Title: "CAUTI Surveillance Variables"
 * location                          -> "1.1 b) 2. Place of insertion"
 * reasonCode                        -> "1.1 b) 5. Indication"
 
-
-
-
-
-// --------------- Instances --------------- //
-Instance: InsertCatheter-20210701-14200210624
-InstanceOf: SwissnosoProcedureInsertCatheter
-Usage: #example
-Title: "Insert Catheter (01.07.2021)"
-Description: "Example of a Swissnoso procedure (UC 14200)"
-* status = #completed
-* subject = Reference(AnnaMeier)
-* performedDateTime = "2021-07-01"
-* code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(Bettenstation)
-* reasonCode = $swissnoso-indication#3 "Operation"
-* extension[transurethralProcedure].valueBoolean = false
-* encounter = Reference(Encounter-14200210624)
-
-
-
-

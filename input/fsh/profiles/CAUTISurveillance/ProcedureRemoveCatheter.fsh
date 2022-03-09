@@ -25,18 +25,3 @@ Title: "CAUTI Surveillance Variables"
 * performedDateTime                 -> "1.1 b) 4. Date of removal"
 
 
-// --------------- Instances --------------- //
-Instance: RemoveCatheter-20210704-14200210624
-InstanceOf: SwissnosoProcedureRemoveCatheter
-Usage: #example
-Title: "Remove Catheter (04.07.2021)"
-Description: "Example of a Swissnoso procedure (UC 14200)"
-* status = #completed
-* subject = Reference(AnnaMeier)
-* performedDateTime = "2021-07-04"
-* code = $sct#43748006 "Removal of urinary bladder catheter (procedure)"
-* encounter = Reference(Encounter-14200210624)
-* reasonReference = Reference(InsertCatheter-20210701-14200210624)
-
-
-
