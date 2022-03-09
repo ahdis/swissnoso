@@ -18,8 +18,8 @@ Description: "Example of a Swissnoso message (UC 44371)"
 * entry[=].resource = Encounter-44371210708
 * entry[+].fullUrl = "http://example.ch/fhir/Organization/SpitalTannenwald"
 * entry[=].resource = SpitalTannenwald
-* entry[+].fullUrl = "http://example.ch/fhir/Location/Bettenstation"
-* entry[=].resource = Bettenstation
+* entry[+].fullUrl = "http://example.ch/fhir/Location/BettenstationTannenwald"
+* entry[=].resource = BettenstationTannenwald
 
 * entry[+].fullUrl = "http://example.ch/fhir/Observation/Symptoms1-20210709-44371210708"
 * entry[=].resource = Symptoms1-20210709-44371210708

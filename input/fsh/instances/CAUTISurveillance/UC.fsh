@@ -1,3 +1,4 @@
+// Tannenwald
 Instance: SpitalTannenwald
 InstanceOf: SwissnosoOrganization
 Usage: #example
@@ -6,24 +7,39 @@ Description: "Example of a Swissnoso organization"
 * identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
 * identifier[swissnoso].value = "1234"
 
-
-
-Instance: Notfallstation
+Instance: NotfallstationTannenwald
 InstanceOf: SwissnosoLocation
 Usage: #example
-Title: "Notfallstation"
+Title: "Notfallstation Tannenwald"
 Description: "Example of a Swissnoso location"
-* name = "Notfallstation"
+* name = "Notfallstation Tannenwald"
 * physicalType = $swissnoso-location-of-procedure#1 "Notfallstation"
 * managingOrganization = Reference(SpitalTannenwald)
 
-Instance: Bettenstation
+Instance: BettenstationTannenwald
 InstanceOf: SwissnosoLocation
 Usage: #example
-Title: "Bettenstation"
+Title: "Bettenstation Tannenwald"
 Description: "Example of a Swissnoso location"
-* name = "Bettenstation"
+* name = "Bettenstation Tannenwald"
 * physicalType = $swissnoso-location-of-procedure#2 "Bettenstation"
 * managingOrganization = Reference(SpitalTannenwald)
 
 
+// Bellevue
+Instance: SpitalBellevue
+InstanceOf: SwissnosoOrganization
+Usage: #example
+Title: "Spital Bellevue"
+Description: "Example of a Swissnoso organization"
+* identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
+* identifier[swissnoso].value = "1357"
+
+Instance: BettenstationBellevue
+InstanceOf: SwissnosoLocation
+Usage: #example
+Title: "Bettenstation Bellevue"
+Description: "Example of a Swissnoso location"
+* name = "Bettenstation Bellevue"
+* physicalType = $swissnoso-location-of-procedure#2 "Bettenstation"
+* managingOrganization = Reference(SpitalBellevue)

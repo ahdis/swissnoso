@@ -37,7 +37,7 @@ Description: "Example of a Swissnoso procedure (UC 181521)"
 * subject = Reference(FridolinMueller)
 * performedDateTime = "2021-07-06"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(Notfallstation)
+* location = Reference(NotfallstationTannenwald)
 * reasonCode = $swissnoso-indication#4 "Decubitalulzera plus Inkontinenz"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-181521210706)
@@ -66,7 +66,7 @@ Description: "Example of a Swissnoso procedure (UC 181521)"
 * subject = Reference(FridolinMueller)
 * performedDateTime = "2021-07-09"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(Bettenstation)
+* location = Reference(BettenstationTannenwald)
 * reasonCode = $swissnoso-indication#1 "Harnverhalt"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-181521210706)

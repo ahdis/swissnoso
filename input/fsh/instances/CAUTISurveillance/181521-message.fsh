@@ -22,12 +22,12 @@ Description: "Example of a Swissnoso message (UC 181521)"
 * entry[=].resource = Encounter-181521210706
 * entry[+].fullUrl = "http://example.ch/fhir/Organization/SpitalTannenwald"
 * entry[=].resource = SpitalTannenwald
-* entry[+].fullUrl = "http://example.ch/fhir/Location/Notfallstation"
-* entry[=].resource = Notfallstation
-* entry[+].fullUrl = "http://example.ch/fhir/Location/Bettenstation"
-* entry[=].resource = Bettenstation
-* entry[+].fullUrl = "http://example.ch/fhir/Observation/Symptoms-20210706-181521210706"
+* entry[+].fullUrl = "http://example.ch/fhir/Location/NotfallstationTannenwald"
+* entry[=].resource = NotfallstationTannenwald
+* entry[+].fullUrl = "http://example.ch/fhir/Location/BettenstationTannenwald"
+* entry[=].resource = BettenstationTannenwald
 
+* entry[+].fullUrl = "http://example.ch/fhir/Observation/Symptoms-20210706-181521210706"
 * entry[=].resource = Symptoms-20210706-181521210706
 * entry[+].fullUrl = "http://example.ch/fhir/Observation/Fever-20210706-181521210706"
 * entry[=].resource = Fever-20210706-181521210706

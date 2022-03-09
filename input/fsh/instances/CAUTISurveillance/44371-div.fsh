@@ -37,7 +37,7 @@ Description: "Example of a Swissnoso procedure (UC 44371)"
 * subject = Reference(LisaGuggisberg)
 * performedDateTime = "2021-07-08"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(Bettenstation)
+* location = Reference(BettenstationTannenwald)
 * reasonCode = $swissnoso-indication#1 "Harnverhalt"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-44371210708)
