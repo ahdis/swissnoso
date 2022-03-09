@@ -109,7 +109,7 @@ Description: "Example of a Swissnoso observation (UC 181521)"
 Instance: Fever-20210706-181521210706
 InstanceOf: SwissnosoObservationFever
 Usage: #example
-Title: "No Fever (06.07.2021)"
+Title: "Fever (06.07.2021)"
 Description: "Example of a Swissnoso observation (UC 181521)"
 * status = #final
 * code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
@@ -121,7 +121,7 @@ Description: "Example of a Swissnoso observation (UC 181521)"
 Instance: SuprapubicTenderness-20210706-181521210706
 InstanceOf: SwissnosoObservationSuprapubicTenderness
 Usage: #example
-Title: "No Suprapubic Tenderness (06.07.2021)"
+Title: "Suprapubic Tenderness (06.07.2021)"
 Description: "Example of a Swissnoso observation (UC 181521)"
 * status = #final
 * code = $swissnoso-clinical-symptom#2 "Suprapubische Druckdolenz"
@@ -145,7 +145,7 @@ Description: "Example of a Swissnoso observation (UC 181521)"
 Instance: NoUrinaryUrgency-20210706-181521210706
 InstanceOf: SwissnosoObservationUrinaryUrgency
 Usage: #example
-Title: "Urinary Urgency (06.07.2021)"
+Title: "No Urinary Urgency (06.07.2021)"
 Description: "Example of a Swissnoso observation (UC 181521)"
 * status = #final
 * code = $swissnoso-clinical-symptom#4 "Harndrang"
