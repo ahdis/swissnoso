@@ -44,16 +44,16 @@ Title: "CAUTI Surveillance Variables"
 
 
 
-Extension: SwissnosoAdmissionDateToMonitoredOrganizationalUnits
-Id: swissnoso-admission-date-to-monitored-organizational-units
-Title: "Swissnoso Admission Date to Monitored Organizational Units"
-Description: "Extension defined by Swissnoso to describe the date of admission to the monitored organizational units."
+Extension: SwissnosoAdmissionDateMonitoredUnit
+Id: swissnoso-admission-date-monitored-unit
+Title: "Swissnoso Admission Date Monitored Unit"
+Description: "Extension defined by Swissnoso to describe the date of admission to the monitored organizational unit."
 * value[x] only dateTime
 * value[x] 1..
 
-Extension: SwissnosoDischargeDateFromMonitoredOrganizationalUnits
-Id: swissnoso-discharge-date-from-monitored-organizational-units
-Title: "Swissnoso Discharge Date from Monitored Organizational Units"
-Description: "Extension defined by Swissnoso to describe the date of discharge from the monitored organizational units."
+Extension: SwissnosoDischargeDateMonitoredUnit
+Id: swissnoso-discharge-date-monitored-unit
+Title: "Swissnoso Discharge Date Monitored Unit"
+Description: "Extension defined by Swissnoso to describe the date of discharge from the monitored organizational unit."
 * value[x] only dateTime
 * value[x] 1..

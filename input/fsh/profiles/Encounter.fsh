@@ -25,11 +25,11 @@ Description: "This profile constrains the Encounter resource to represent the ch
 * extension contains SwissnosoOrganizationalUnit named organizationalUnit 1..1
 * extension[organizationalUnit]. ^short = "Organizational unit with its specialty"
 
-* extension contains SwissnosoAdmissionDateToMonitoredOrganizationalUnits named admissionDateOrganizationalUnits 0..1
-* extension[admissionDateOrganizationalUnits]. ^short = "Date of admission to the monitored organizational units"
+* extension contains SwissnosoAdmissionDateMonitoredUnit named admissionDateMonitoredUnit 0..1
+* extension[admissionDateMonitoredUnit]. ^short = "Date of admission to the monitored organizational unit"
 
-* extension contains SwissnosoDischargeDateFromMonitoredOrganizationalUnits named dischargeDateOrganizationalUnits 0..1
-* extension[dischargeDateOrganizationalUnits]. ^short = "Date of discharge from the monitored organizational units"
+* extension contains SwissnosoDischargeDateMonitoredUnit named dischargeDateMonitoredUnit 0..1
+* extension[dischargeDateMonitoredUnit]. ^short = "Date of discharge from the monitored organizational unit"
 
 
 // --------------- Mapping --------------- //
@@ -41,5 +41,5 @@ Title: "CAUTI Surveillance Variables"
 * identifier[VisitNumber]                       -> "1.1 a) 2. Case number"
 * period.start                                  -> "1.1 a) 7. Date of admission to hospital"
 * period.end                                    -> "1.1 a) 9. Date of discharge from hospital"
-* extension[admissionDateOrganizationalUnits]   -> "1.1 a) 8. Date of admission to the monitored organizational units"
-* extension[dischargeDateOrganizationalUnits]   -> "1.1 a) 10. Date of discharge from the monitored organizational units"
+* extension[admissionDateMonitoredUnit]         -> "1.1 a) 8. Date of admission to the monitored organizational units"
+* extension[dischargeDateMonitoredUnit]         -> "1.1 a) 10. Date of discharge from the monitored organizational units"
