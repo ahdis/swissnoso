@@ -1,12 +1,12 @@
 ### ValueSets
 
-{% include list-simple-valuesets.xhtml %}
+{% include list-valuesets.xhtml %}
 
 ### CodeSystems
   
-{% include list-simple-codesystems.xhtml %}
+{% include list-codesystems.xhtml %}
 
 ### ConceptMaps
 
-{% include list-simple-conceptmaps.xhtml %}
+{% include list-conceptmaps.xhtml %}
 
