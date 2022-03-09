@@ -13,7 +13,7 @@ Usage: #example
 Title: "Notfallstation Tannenwald"
 Description: "Example of a Swissnoso location"
 * name = "Notfallstation Tannenwald"
-* physicalType = $swissnoso-location-of-procedure#1 "Notfallstation"
+* physicalType = $swissnoso-procedure-location#1 "Notfallstation"
 * managingOrganization = Reference(SpitalTannenwald)
 
 Instance: BettenstationTannenwald
@@ -22,7 +22,7 @@ Usage: #example
 Title: "Bettenstation Tannenwald"
 Description: "Example of a Swissnoso location"
 * name = "Bettenstation Tannenwald"
-* physicalType = $swissnoso-location-of-procedure#2 "Bettenstation"
+* physicalType = $swissnoso-procedure-location#2 "Bettenstation"
 * managingOrganization = Reference(SpitalTannenwald)
 
 
@@ -41,5 +41,5 @@ Usage: #example
 Title: "Bettenstation Bellevue"
 Description: "Example of a Swissnoso location"
 * name = "Bettenstation Bellevue"
-* physicalType = $swissnoso-location-of-procedure#2 "Bettenstation"
+* physicalType = $swissnoso-procedure-location#2 "Bettenstation"
 * managingOrganization = Reference(SpitalBellevue)

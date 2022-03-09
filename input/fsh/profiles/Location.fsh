@@ -7,7 +7,7 @@ Description: "This profile constrains the Location resource to represent the cha
 * . ^short = "Swissnoso Location"
 
 * physicalType 1..
-* physicalType from SwissnosoLocationOfProcedure (preferred)
+* physicalType from SwissnosoProcedureLocation (preferred)
 
 * managingOrganization 1..
 * managingOrganization only Reference(SwissnosoOrganization)
