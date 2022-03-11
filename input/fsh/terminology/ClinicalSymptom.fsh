@@ -1,7 +1,9 @@
 CodeSystem: SwissnosoClinicalSymptom
 Id: swissnoso-clinical-symptom
 Title: "Swissnoso Clinical Symptom"
-Description: "This code system contains codes defined by Swissnoso to define the clinical symptom."
+Description: "This code system contains codes defined by Swissnoso for representing the clinical symptom. 
+The selection of the clinical symptoms are based on the CAUTI definition of the National Healthcare Safety Network (NHSN), 
+see the corresponding [NHSN manual](https://www.cdc.gov/nhsn/pdfs/pscmanual/7psccauticurrent.pdf)."
 * ^caseSensitive = false
 * ^content = #complete
 
