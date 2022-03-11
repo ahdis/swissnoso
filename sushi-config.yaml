@@ -7,11 +7,11 @@ id: ch.fhir.ig.swissnoso
 canonical: http://fhir.ch/ig/swissnoso
 name: Swissnoso_IG
 title: Swissnoso Implementation Guide (R4)
-description: Implementation Guide (R4) for ...
+description: Implementation guide to specify the exchange format for data transmission to Swissnoso in the context of monitoring and prevention of healthcare-associated infections.
 status: active
 license: CC-BY-SA-4.0
 copyright: CC-BY-SA-4.0
-jurisdiction: urn:iso:std:iso:3166#CH
+jurisdiction: urn:iso:std:iso:3166#CHE
 date: 2022-02-03
 version: 0.1.0
 fhirVersion: 4.0.1
