@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoIndication
 Id: swissnoso-indication
 Title: "Swissnoso Indication"
-Description: "This code system contains codes defined by Swissnoso to define the indication."
+Description: "This code system contains codes defined by Swissnoso for representing the indication."
 * ^caseSensitive = false
 * ^content = #complete
 

@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoSpecialty
 Id: swissnoso-specialty
 Title: "Swissnoso Specialty"
-Description: "This code system contains codes defined by Swissnoso to define the specialty."
+Description: "This code system contains codes defined by Swissnoso for representing the specialty."
 * ^caseSensitive = false
 * ^content = #complete
 

@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoProcedureLocation
 Id: swissnoso-procedure-location
 Title: "Swissnoso Procedure Location"
-Description: "This code system contains codes defined by Swissnoso to define the location where the procedure is performed."
+Description: "This code system contains codes defined by Swissnoso for representing the location where the procedure is performed."
 * ^caseSensitive = false
 * ^content = #complete
 

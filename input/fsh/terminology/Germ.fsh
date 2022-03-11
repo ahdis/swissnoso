@@ -1,7 +1,7 @@
 CodeSystem: SwissnosoGerm
 Id: swissnoso-germ
 Title: "Swissnoso Germ"
-Description: "This code system contains codes defined by Swissnoso to define the germ."
+Description: "This code system contains codes defined by Swissnoso for representing the germ."
 * ^caseSensitive = false
 * ^content = #complete
 

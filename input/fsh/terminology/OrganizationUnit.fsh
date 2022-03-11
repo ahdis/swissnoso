@@ -2,7 +2,7 @@
 CodeSystem: SwissnosoOrganizationalUnit
 Id: swissnoso-organizational-unit
 Title: "Swissnoso Organizational Unit"
-Description: "This code system contains codes defined by Swissnoso to define the organization unit."
+Description: "This code system contains codes defined by Swissnoso for representing the organization unit."
 * ^caseSensitive = false
 * ^content = #complete
 
