@@ -7,14 +7,6 @@ Description: "Extension defined by Swissnoso to describe whether the procedure w
 
 
 
-Extension: SwissnosoGerm
-Id: swissnoso-germ
-Title: "Swissnoso Germ"
-Description: "Extension defined by Swissnoso to describe which germ is present in the urine."
-* valueCoding 1..
-* valueCoding from SwissnosoGerm (required)
-
-
 Extension: SwissnosoOrganizationalUnit
 Id: swissnoso-organizational-unit
 Title: "Swissnoso Organizational Unit"

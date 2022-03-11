@@ -187,13 +187,14 @@ Title: "Germ 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#87829-8 "Bacteria [Presence] in Urine"
-* extension[germ].valueCoding = $swissnoso-germ#1 "E. coli"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
-* valueCodeableConcept = $swissnoso-bacterial-count-in-urine#1 "<10E5 CFU/ml"
 * partOf = Reference(Microbiology1-20210709-44371210708)
-
+* component[bacteria].code = $lnc#630-4	"Bacteria identified in Urine by Culture"
+* component[bacteria].valueCodeableConcept = $swissnoso-germ#1 "E. coli"
+* component[bacterialCount].code = $lnc#51480-2 "Bacteria [#/volume] in Urine by Automated count"
+* component[bacterialCount].valueCodeableConcept = $swissnoso-bacterial-count-in-urine#1 "<10E5 CFU/ml"
 
 // ------------------------------------------------------------------------------------------------ //
 
@@ -327,9 +328,11 @@ Title: "Germ 1 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#87829-8 "Bacteria [Presence] in Urine"
-* extension[germ].valueCoding = $swissnoso-germ#1 "E. coli"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
-* valueCodeableConcept = $swissnoso-bacterial-count-in-urine#2 ">=10E5 CFU/ml"
 * partOf = Reference(Microbiology2-20210714-44371210708)
+* component[bacteria].code = $lnc#630-4	"Bacteria identified in Urine by Culture"
+* component[bacteria].valueCodeableConcept = $swissnoso-germ#1 "E. coli"
+* component[bacterialCount].code = $lnc#51480-2 "Bacteria [#/volume] in Urine by Automated count"
+* component[bacterialCount].valueCodeableConcept = $swissnoso-bacterial-count-in-urine#2 ">=10E5 CFU/ml"
