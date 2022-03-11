@@ -1,9 +1,15 @@
-CodeSystem: SwissnosoSpecialty
-Id: swissnoso-specialty
-Title: "Swissnoso Specialty"
-Description: "This code system contains codes defined by Swissnoso for representing the specialty."
-* ^caseSensitive = false
+// https://chat.fhir.org/#narrow/stream/179202-terminology/topic/ECDC.20code.20system
+CodeSystem: ECDCPatientConsultantSpecialty
+Id: ecdc-patient-consultant-specialty
+Title: "ECDC Patient-Consultant Specialty"
+Description: "This code system contains specialty codes defined by the European Centre for Disease Prevention and Control (ECDC), 
+used by Swissnoso in the context of monitoring and prevention of healthcare-associated infections. 
+See original code system in [European Centre for Disease Prevention and Control. Point prevalence survey of healthcare-associated infections and antimicrobial 
+use in European acute care hospitals – protocol version 5.3. Stockholm: ECDC; 2016.](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/PPS-HAI-antimicrobial-use-EU-acute-care-hospitals-V5-3.pdf), page 47 f."
+
+* ^caseSensitive = true
 * ^content = #complete
+
 
 * #1 "General surgery (SURGEN)"
 * #1 ^designation[0].language = #de-CH
@@ -460,11 +466,3 @@ Description: "This code system contains codes defined by Swissnoso for represent
 * #57 ^designation[=].value = "Combinaison de spécialités (MIX)"
 * #57 ^designation[+].language = #it-CH
 * #57 ^designation[=].value = "Combinazioni di specialità (MIX)"
-
-
-
-ValueSet: SwissnosoSpecialty
-Id: swissnoso-specialty
-Title: "Swissnoso Specialty"
-Description: "This value set includes the codes defined in the code system 'Swissnoso Specialty'."
-* include codes from system SwissnosoSpecialty

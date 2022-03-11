@@ -13,12 +13,11 @@ Alias:   $ChCoreOrganization =          http://fhir.ch/ig/ch-core/StructureDefin
 Alias:   $ChCoreLocation =              http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-location
 
 // Swissnoso
-Alias:   $swissnoso =                             http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso
 Alias:   $swissnoso-procedure-location =          http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-procedure-location
 Alias:   $swissnoso-indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-indication
 Alias:   $swissnoso-germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-germ
 Alias:   $swissnoso-clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-clinical-symptom
-Alias:   $swissnoso-organizational-unit =         http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-organizational-unit
-Alias:   $swissnoso-specialty =                   http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialty
 Alias:   $swissnoso-number-of-different-germs =   http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-number-of-different-germs
 Alias:   $swissnoso-bacterial-count-in-urine =    http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-bacterial-count-in-urine
+Alias:   $ecdc-ward-specialty =                   http://fhir.ch/ig/swissnoso/CodeSystem/ecdc-ward-specialty
+Alias:   $ecdc-patient-consultant-specialty =     http://fhir.ch/ig/swissnoso/CodeSystem/ecdc-patient-consultant-specialty

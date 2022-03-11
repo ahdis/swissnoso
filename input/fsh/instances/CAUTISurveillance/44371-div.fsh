@@ -12,8 +12,8 @@ Description: "Example of a Swissnoso encounter (UC 44371)"
 * period.start = "2021-07-08"
 * period.end = "2021-07-16"
 * serviceProvider = Reference(SpitalTannenwald)
-* extension[organizationalUnit].extension[unit].valueCoding = $swissnoso-organizational-unit#2 "Medizin (MED)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $swissnoso-specialty#22 "Allgemeinmedizin (MEDGEN)"
+* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#2 "Medizin (MED)"
+* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#22 "Allgemeinmedizin (MEDGEN)"
 
 
 Instance: LisaGuggisberg

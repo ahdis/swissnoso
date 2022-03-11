@@ -26,3 +26,5 @@ This specification includes content from SNOMED CT, which is copyright © 2002+ 
 <https://www.snomed.org/snomed-ct/getsnomed> or <info@snomed.org>.
 
 This specification contains content from LOINC® (<http://loinc.org>). The LOINC table, LOINC codes, and LOINC panels and forms file are copyright © 1995-2014, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and available at no cost under the license at <http://loinc.org/terms-of-use>.
+
+This specification includes content from the European Centre for Disease Prevention and Control, which is copyright © ECDC 2005-2022. For more information see <https://www.ecdc.europa.eu/en/copyright>.

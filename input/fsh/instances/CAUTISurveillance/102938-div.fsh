@@ -12,8 +12,8 @@ Description: "Example of a Swissnoso encounter (UC 102938)"
 * period.start = "2021-07-10"
 * period.end = "2021-07-21"
 * serviceProvider = Reference(SpitalBellevue)
-* extension[organizationalUnit].extension[unit].valueCoding = $swissnoso-organizational-unit#1 "Chirurgie (SUR)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $swissnoso-specialty#2 "Abdominalchirurgie (SURDIG)"
+* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#1 "Chirurgie (SUR)"
+* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#2 "Abdominalchirurgie (SURDIG)"
 * extension[admissionDateMonitoredUnit].valueDateTime = "2021-07-12"
 * extension[dischargeDateMonitoredUnit].valueDateTime = "2021-07-21"
 

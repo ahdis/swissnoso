@@ -12,7 +12,7 @@ Description: "Example of a Swissnoso encounter (UC 14200)"
 * period.start = "2021-06-24"
 * period.end = "2021-07-08"
 * serviceProvider = Reference(SpitalTannenwald)
-* extension[organizationalUnit].extension[unit].valueCoding = $swissnoso-organizational-unit#1 "Chirurgie (SUR)"
+* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#1 "Chirurgie (SUR)"
 
 
 Instance: AnnaMeier
