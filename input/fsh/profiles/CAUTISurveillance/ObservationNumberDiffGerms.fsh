@@ -6,7 +6,7 @@ Title: "Swissnoso Observation Number of Different Germs"
 Description: "This profile constrains the Observation resource to represent the number of different swissnoso-germs in the context of the CAUTI Surveillance module."
 * . ^short = "Swissnoso Observation Number of Different Germs"
 
-* valueCodeableConcept from SwissnosoNumberOfDifferentGerms (preferred)
+* valueCodeableConcept from SwissnosoNumberOfDifferentGerms (required)
 * valueCodeableConcept. ^short = "Number of different germs (0, 1, 2, >2)"
 * valueCodeableConcept 1..
 

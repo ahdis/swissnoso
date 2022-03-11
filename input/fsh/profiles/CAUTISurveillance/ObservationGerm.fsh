@@ -14,7 +14,7 @@ Description: "This profile constrains the Observation resource to represent the 
 
 * effectiveDateTime 1..
 
-* valueCodeableConcept from SwissnosoBacterialCountInUrine (preferred)
+* valueCodeableConcept from SwissnosoBacterialCountInUrine (required)
 * valueCodeableConcept. ^short = "Bacterial count in urine (<10E5 CFU/ml, >=10E5 CFU/ml)"
 * valueCodeableConcept 1..
 

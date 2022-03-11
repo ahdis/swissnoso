@@ -19,7 +19,7 @@ Description: "This profile constrains the Procedure resource to represent the pr
 * location. ^short = "Place of insertion"
 
 * reasonCode ..1
-* reasonCode from SwissnosoIndication (preferred)
+* reasonCode from SwissnosoIndication (required)
 * reasonCode. ^short = "Indication"
 
 

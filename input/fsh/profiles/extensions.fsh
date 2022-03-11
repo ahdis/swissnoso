@@ -12,7 +12,7 @@ Id: swissnoso-germ
 Title: "Swissnoso Germ"
 Description: "Extension defined by Swissnoso to describe which germ is present in the urine."
 * valueCoding 1..
-* valueCoding from SwissnosoGerm (preferred)
+* valueCoding from SwissnosoGerm (required)
 
 
 Extension: SwissnosoOrganizationalUnit
