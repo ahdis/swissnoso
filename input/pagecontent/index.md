@@ -19,7 +19,7 @@ The CAUTI Surveillance module, which has been available to all Swiss acute care 
 You can download this implementation guide in the [NPM package](https://confluence.hl7.org/display/FHIR/NPM+Package+Specification) format from [here](package.tgz).
 
 #### Change Log
-[Significant changes](changelog.html) to this specification since its initial version.
+[Significant changes](changelog.html) to this specification since its initial version, open and closed issues.
 
 ### Copyright
 This specification includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation ([IHTSDO](http://snomed.org/)) and distributed by agreement between IHTSDO and HL7. Implementers of these specification must have the appropriate SNOMED CT Affiliate license - for more information contact 

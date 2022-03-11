@@ -1,4 +1,3 @@
-// https://chat.fhir.org/#narrow/stream/179202-terminology/topic/ECDC.20code.20system
 CodeSystem: ECDCWardSpecialty
 Id: ecdc-ward-specialty
 Title: "ECDC Ward Specialty"
