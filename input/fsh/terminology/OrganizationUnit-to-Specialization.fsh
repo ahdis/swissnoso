@@ -1,4 +1,3 @@
-// https://chat.fhir.org/#narrow/stream/179202-terminology/topic/ECDC.20code.20system
 Instance: SwissnosoOrganizationalUnit-to-SwissnosoSpecialty
 InstanceOf: ConceptMap
 Usage: #definition
@@ -9,8 +8,8 @@ Usage: #definition
 
 * sourceUri = "http://fhir.ch/ig/swissnoso/ValueSet/swissnoso-organizational-unit"
 * targetUri = "http://fhir.ch/ig/swissnoso/ValueSet/swissnoso-specialty"
-* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-organizational-unit"
-* group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-specialty"
+* group.source = "http://fhir.ch/ig/swissnoso/CodeSystem/ecdc-ward-specialty"
+* group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/ecdc-patient-consultant-specialty"
 
 // Operative Fachgebiete (SUR)
 * group.element[+].code = #1 
