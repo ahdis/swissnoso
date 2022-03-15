@@ -64,7 +64,7 @@ Usage: #example
 Title: "Symptoms 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $sct#249274008 "Urinary symptoms (finding)"
+* code = $lnc#75325-1 "Symptom"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
@@ -205,7 +205,7 @@ Usage: #example
 Title: "Symptoms 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $sct#249274008 "Urinary symptoms (finding)"
+* code = $lnc#75325-1 "Symptom"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"

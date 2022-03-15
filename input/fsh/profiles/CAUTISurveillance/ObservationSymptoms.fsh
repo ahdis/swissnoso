@@ -11,8 +11,8 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueBoolean. ^short = "Symptoms (yes/no)"
 * valueBoolean 1..
 
-* code = $sct#249274008
-* code. ^short = "Urinary symptoms (finding)"
+* code = $lnc#75325-1
+* code. ^short = "Symptom"
 
 * effectiveDateTime 1..
 

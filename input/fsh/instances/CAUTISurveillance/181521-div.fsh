@@ -92,7 +92,7 @@ Usage: #example
 Title: "Symptoms (06.07.2021)"
 Description: "Example of a Swissnoso observation (UC 181521)"
 * status = #final
-* code = $sct#249274008 "Urinary symptoms (finding)"
+* code = $lnc#75325-1 "Symptom"
 * subject = Reference(FridolinMueller)
 * encounter = Reference(Encounter-181521210706)
 * effectiveDateTime = "2021-07-06"
