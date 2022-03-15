@@ -171,7 +171,7 @@ Usage: #example
 Title: "Number of Different Germs (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $lnc#19091-8 "Colony count [#] in Urine by Visual count"
+* code = $sct#309470003 "Identification of microorganisms in urine culture (procedure)"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
@@ -312,7 +312,7 @@ Usage: #example
 Title: "Number of Different Germs (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $lnc#19091-8 "Colony count [#] in Urine by Visual count"
+* code = $sct#309470003 "Identification of microorganisms in urine culture (procedure)"
 * subject = Reference(LisaGuggisberg)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"

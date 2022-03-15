@@ -10,8 +10,8 @@ Description: "This profile constrains the Observation resource to represent the 
 * valueCodeableConcept. ^short = "Number of different germs (0, 1, 2, >2)"
 * valueCodeableConcept 1..
 
-* code = $lnc#19091-8
-* code. ^short = "Colony count [#] in Urine by Visual count"
+* code = $sct#309470003
+* code. ^short = "Identification of microorganisms in urine culture (procedure)"
 
 * effectiveDateTime 1..
 
