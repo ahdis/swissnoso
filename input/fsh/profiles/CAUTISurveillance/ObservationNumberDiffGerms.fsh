@@ -20,6 +20,7 @@ Description: "This profile constrains the Observation resource to represent the 
 
 * hasMember only Reference(SwissnosoObservationGerm)
 * hasMember ..2
+* hasMember. ^short = "Identified germs"
 
 
 
