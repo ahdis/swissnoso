@@ -49,3 +49,11 @@ Title: "Swissnoso Discharge Date Monitored Unit"
 Description: "Extension defined by Swissnoso to describe the date of discharge from the monitored organizational unit."
 * value[x] only dateTime
 * value[x] 1..
+
+
+Extension: SwissnosoSequenceNumber
+Id: swissnoso-sequence-number
+Title: "Swissnoso Sequence Number"
+Description: "Extension defined by Swissnoso to be able to indicate the sequence number."
+* value[x] only positiveInt
+* value[x] 1..

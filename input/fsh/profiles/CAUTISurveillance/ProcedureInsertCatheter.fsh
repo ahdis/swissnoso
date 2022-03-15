@@ -9,6 +9,9 @@ Description: "This profile constrains the Procedure resource to represent the pr
 * extension contains SwissnosoTransurethralProcedure named transurethralProcedure 0..1
 * extension[transurethralProcedure]. ^short = "Insertion of the catheter as part of a transurethral procedure"
 
+* extension contains SwissnosoSequenceNumber named sequenceNumber 1..1
+* extension[sequenceNumber]. ^short = "Sequence number of the catheter"
+
 * code = $sct#410024004
 * code. ^short = "Catheterization of urinary bladder (procedure)"
 

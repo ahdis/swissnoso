@@ -16,6 +16,9 @@ Description: "This profile constrains the Procedure resource to represent the mi
 * reasonReference only Reference(SwissnosoObservationSymptoms)
 * reasonReference 1..1
 
+* extension contains SwissnosoSequenceNumber named sequenceNumber 1..1
+* extension[sequenceNumber]. ^short = "Sequence number of the microbiology"
+
 
 
 

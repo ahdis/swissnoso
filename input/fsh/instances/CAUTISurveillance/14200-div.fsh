@@ -40,6 +40,7 @@ Description: "Example of a Swissnoso procedure (UC 14200)"
 * reasonCode = $swissnoso-indication#3 "Operation"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-14200210624)
+* extension[sequenceNumber].valuePositiveInt = 1
 
 
 Instance: RemoveCatheter-20210704-14200210624

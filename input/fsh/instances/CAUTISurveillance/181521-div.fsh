@@ -41,6 +41,7 @@ Description: "Example of a Swissnoso procedure (UC 181521)"
 * reasonCode = $swissnoso-indication#4 "Decubitalulzera plus Inkontinenz"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-181521210706)
+* extension[sequenceNumber].valuePositiveInt = 1
 
 
 Instance: RemoveCatheter1-20210709-181521210706
@@ -70,6 +71,7 @@ Description: "Example of a Swissnoso procedure (UC 181521)"
 * reasonCode = $swissnoso-indication#1 "Harnverhalt"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-181521210706)
+* extension[sequenceNumber].valuePositiveInt = 2
 
 
 Instance: RemoveCatheter2-20210710-181521210706
@@ -191,6 +193,7 @@ Description: "Example of a Swissnoso procedure (UC 181521)"
 * code = $sct#269934003 "Microbiology (procedure)"
 * encounter = Reference(Encounter-181521210706)
 * reasonReference = Reference(Symptoms-20210706-181521210706)
+* extension[sequenceNumber].valuePositiveInt = 1
 
 
 Instance: NumberOfDifferentGerms-20210706-181521210706
