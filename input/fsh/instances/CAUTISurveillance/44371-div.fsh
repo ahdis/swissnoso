@@ -12,8 +12,8 @@ Description: "Example of a Swissnoso encounter (UC 44371)"
 * period.start = "2021-07-08"
 * period.end = "2021-07-16"
 * serviceProvider = Reference(OspedaleSantaMaria)
-* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#2 "Medicina (MED)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#22 "Medicina interna, medicina generale (MEDGEN)"
+* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#MED "Medicina"
+* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#MEDGEN "Medicina interna, medicina generale"
 
 
 Instance: GiuliaRossi

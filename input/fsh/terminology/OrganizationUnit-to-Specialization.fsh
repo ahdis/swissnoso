@@ -12,151 +12,151 @@ Usage: #definition
 * group.target = "http://fhir.ch/ig/swissnoso/CodeSystem/ecdc-patient-consultant-specialty"
 
 // Operative Fachgebiete (SUR)
-* group.element[+].code = #1 
-* group.element[=].target[+].code = #1
+* group.element[+].code = #SUR
+* group.element[=].target[+].code = #SURGEN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #2
+* group.element[=].target[+].code = #SURDIG
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #3
+* group.element[=].target[+].code = #SURORTR
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #4
+* group.element[=].target[+].code = #SURORTO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #5
+* group.element[=].target[+].code = #SURTR
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #6
+* group.element[=].target[+].code = #SURCV
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #7
+* group.element[=].target[+].code = #SURCARD
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #8
+* group.element[=].target[+].code = #SURVASC
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #9
+* group.element[=].target[+].code = #SURTHO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #10
+* group.element[=].target[+].code = #SURNEU
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #11
+* group.element[=].target[+].code = #SURPED
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #12
+* group.element[=].target[+].code = #SURTRANS
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #13
+* group.element[=].target[+].code = #SURONCO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #14
+* group.element[=].target[+].code = #SURENT
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #15
+* group.element[=].target[+].code = #SUROPH
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #16
+* group.element[=].target[+].code = #SURMAXFAC
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #17
+* group.element[=].target[+].code = #SURSTODEN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #18
+* group.element[=].target[+].code = #SURBURN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #19
+* group.element[=].target[+].code = #SURURO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #20
+* group.element[=].target[+].code = #SURPLAS
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #21
+* group.element[=].target[+].code = #SUROTH
 * group.element[=].target[=].equivalence = #specializes
 
 // Konservative Fachgebiete (MED)
-* group.element[+].code = #2 
-* group.element[=].target[+].code = #1
+* group.element[+].code = #MED
+* group.element[=].target[+].code = #SURGEN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #23
+* group.element[=].target[+].code = #MEDGAST
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #24
+* group.element[=].target[+].code = #MEDHEP
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #25
+* group.element[=].target[+].code = #MEDENDO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #26
+* group.element[=].target[+].code = #MEDONCO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #27
+* group.element[=].target[+].code = #MEDHEMA
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #28
+* group.element[=].target[+].code = #MEDBMT
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #29
+* group.element[=].target[+].code = #MEDHEMBMT
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #30
+* group.element[=].target[+].code = #MEDCARD
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #31
+* group.element[=].target[+].code = #MEDDERM
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #32
+* group.element[=].target[+].code = #MEDNEPH
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #33
+* group.element[=].target[+].code = #MEDNEU
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #34
+* group.element[=].target[+].code = #MEDPNEU
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #35
+* group.element[=].target[+].code = #MEDRHEU
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #36
+* group.element[=].target[+].code = #MEDID
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #37
+* group.element[=].target[+].code = #MEDTR
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #38
+* group.element[=].target[+].code = #MEDOTH
 * group.element[=].target[=].equivalence = #specializes
 
 // Pädiatrie (PED)
-* group.element[+].code = #5
-* group.element[=].target[+].code = #39
+* group.element[+].code = #PED
+* group.element[=].target[+].code = #PEDGEN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #40
+* group.element[=].target[+].code = #ICUPED
 * group.element[=].target[=].equivalence = #specializes
 
 // Neonatologie (NEO)
-* group.element[+].code = #6
-* group.element[=].target[+].code = #41
+* group.element[+].code = #NEO
+* group.element[=].target[+].code = #PEDNEO
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #42
+* group.element[=].target[+].code = #PEDBAB
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #43
+* group.element[=].target[+].code = #ICUNEO
 * group.element[=].target[=].equivalence = #specializes
 
 // Intensivmedizin (ICU)
-* group.element[+].code = #4
-* group.element[=].target[+].code = #44
+* group.element[+].code = #ICU
+* group.element[=].target[+].code = #ICUMED
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #45
+* group.element[=].target[+].code = #ICUSUR
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #46
+* group.element[=].target[+].code = #ICUMIX
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #47
+* group.element[=].target[+].code = #ICUSPEC
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #48
+* group.element[=].target[+].code = #ICUOTH
 * group.element[=].target[=].equivalence = #specializes
 
 // Gynäkologie und Geburtshilfe (GO)
-* group.element[+].code = #3
-* group.element[=].target[+].code = #49
+* group.element[+].code = #GO
+* group.element[=].target[+].code = #GOOBS
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #50
+* group.element[=].target[+].code = #GOGYN
 * group.element[=].target[=].equivalence = #specializes
-* group.element[=].target[+].code = #51
+* group.element[=].target[+].code = #GOBAB
 * group.element[=].target[=].equivalence = #specializes
 
 // Geriatrie (GER)
-* group.element[+].code = #7
-* group.element[=].target[+].code = #52
+* group.element[+].code = #GER
+* group.element[=].target[+].code = #GER
 * group.element[=].target[=].equivalence = #specializes
 
 // Psychiatrie (PSY)
-* group.element[+].code = #8
-* group.element[=].target[+].code = #53
+* group.element[+].code = #PSY
+* group.element[=].target[+].code = #PSY
 * group.element[=].target[=].equivalence = #specializes
 
 // Rehabilitation (RHB)
-* group.element[+].code = #9
-* group.element[=].target[+].code = #54
+* group.element[+].code = #RHB
+* group.element[=].target[+].code = #RHB
 * group.element[=].target[=].equivalence = #specializes
 
 // Langzeitpflege (LTC)
-* group.element[+].code = #10
-* group.element[=].target[+].code = #55
+* group.element[+].code = #LTC
+* group.element[=].target[+].code = #LTC
 * group.element[=].target[=].equivalence = #specializes
 
 // Sonstige (OTH)
-* group.element[+].code = #11
-* group.element[=].target[+].code = #56
+* group.element[+].code = #OTH
+* group.element[=].target[+].code = #OTH
 * group.element[=].target[=].equivalence = #specializes
 
 // Gemischt (MIX)
-* group.element[+].code = #12
-* group.element[=].target[+].code = #57
+* group.element[+].code = #MIX
+* group.element[=].target[+].code = #MIX
 * group.element[=].target[=].equivalence = #specializes

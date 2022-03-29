@@ -4,105 +4,105 @@ Title: "ECDC Ward Specialty"
 Description: "This code system contains specialty codes defined by the European Centre for Disease Prevention and Control (ECDC), 
 used by Swissnoso in the context of monitoring and prevention of healthcare-associated infections. 
 See original code system in [European Centre for Disease Prevention and Control. Point prevalence survey of healthcare-associated infections and antimicrobial 
-use in European acute care hospitals – protocol version 5.3. Stockholm: ECDC; 2016.](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/PPS-HAI-antimicrobial-use-EU-acute-care-hospitals-V5-3.pdf), page 47 f."
+use in European acute care hospitals – protocol version 5.3. Stockholm: ECDC; 2016.](https://www.ecdc.europa.eu/sites/default/files/media/en/publications/Publications/PPS-HAI-antimicrobial-use-EU-acute-care-hospitals-V5-3.pdf), page 40 f."
 
 * ^caseSensitive = true
 * ^content = #complete
 
 
-* #1 "Surgery (SUR)"
-* #1 ^designation[0].language = #de-CH
-* #1 ^designation[=].value = "Chirurgie (SUR)"
-* #1 ^designation[+].language = #fr-CH
-* #1 ^designation[=].value = "Chirurgie (SUR)"
-* #1 ^designation[+].language = #it-CH
-* #1 ^designation[=].value = "Chirurgia (SUR)"
+* #SUR "Surgery"
+* #SUR ^designation[0].language = #de-CH
+* #SUR ^designation[=].value = "Chirurgie"
+* #SUR ^designation[+].language = #fr-CH
+* #SUR ^designation[=].value = "Chirurgie"
+* #SUR ^designation[+].language = #it-CH
+* #SUR ^designation[=].value = "Chirurgia"
 
-* #2 "Medicine (MED)"
-* #2 ^designation[0].language = #de-CH
-* #2 ^designation[=].value = "Medizin (MED)"
-* #2 ^designation[+].language = #fr-CH
-* #2 ^designation[=].value = "Médecine (MED)"
-* #2 ^designation[+].language = #it-CH
-* #2 ^designation[=].value = "Medicina (MED)"
+* #MED "Medicine"
+* #MED ^designation[0].language = #de-CH
+* #MED ^designation[=].value = "Medizin"
+* #MED ^designation[+].language = #fr-CH
+* #MED ^designation[=].value = "Médecine"
+* #MED ^designation[+].language = #it-CH
+* #MED ^designation[=].value = "Medicina"
 
-* #3 "Gynaecology/obstetrics (G/O)"
-* #3 ^designation[0].language = #de-CH
-* #3 ^designation[=].value = "Gynäkologie/Geburtshilfe (G/O)"
-* #3 ^designation[+].language = #fr-CH
-* #3 ^designation[=].value = "Gynécologie/obstétrique (G/O)"
-* #3 ^designation[+].language = #it-CH
-* #3 ^designation[=].value = "Ginecologia/ostetricia (G/O)"
+* #GO "Gynaecology/obstetrics"
+* #GO ^designation[0].language = #de-CH
+* #GO ^designation[=].value = "Gynäkologie/Geburtshilfe"
+* #GO ^designation[+].language = #fr-CH
+* #GO ^designation[=].value = "Gynécologie/obstétrique"
+* #GO ^designation[+].language = #it-CH
+* #GO ^designation[=].value = "Ginecologia/ostetricia"
 
-* #4 "Intensive care medicine (ICU)"
-* #4 ^designation[0].language = #de-CH
-* #4 ^designation[=].value = "Intensivmedizin (ICU)"
-* #4 ^designation[+].language = #fr-CH
-* #4 ^designation[=].value = "Soins intensifs (ICU)"
-* #4 ^designation[+].language = #it-CH
-* #4 ^designation[=].value = "Terapia intensiva (ICU)"
+* #ICU "Intensive care medicine"
+* #ICU ^designation[0].language = #de-CH
+* #ICU ^designation[=].value = "Intensivmedizin"
+* #ICU ^designation[+].language = #fr-CH
+* #ICU ^designation[=].value = "Soins intensifs"
+* #ICU ^designation[+].language = #it-CH
+* #ICU ^designation[=].value = "Terapia intensiva"
 
-* #5 "Paediatrics (PED)"
-* #5 ^designation[0].language = #de-CH
-* #5 ^designation[=].value = "Pädiatrie (PED)"
-* #5 ^designation[+].language = #fr-CH
-* #5 ^designation[=].value = "Pédiatrie (PED)"
-* #5 ^designation[+].language = #it-CH
-* #5 ^designation[=].value = "Pediatrica (PED)"
+* #PED "Paediatrics"
+* #PED ^designation[0].language = #de-CH
+* #PED ^designation[=].value = "Pädiatrie"
+* #PED ^designation[+].language = #fr-CH
+* #PED ^designation[=].value = "Pédiatrie"
+* #PED ^designation[+].language = #it-CH
+* #PED ^designation[=].value = "Pediatrica"
 
-* #6 "Neonatology (NEO)"
-* #6 ^designation[0].language = #de-CH
-* #6 ^designation[=].value = "Neonatologie (NEO)"
-* #6 ^designation[+].language = #fr-CH
-* #6 ^designation[=].value = "Néonatologie (NEO)"
-* #6 ^designation[+].language = #it-CH
-* #6 ^designation[=].value = "Neonatologia (NEO)"
+* #NEO "Neonatology"
+* #NEO ^designation[0].language = #de-CH
+* #NEO ^designation[=].value = "Neonatologie"
+* #NEO ^designation[+].language = #fr-CH
+* #NEO ^designation[=].value = "Néonatologie"
+* #NEO ^designation[+].language = #it-CH
+* #NEO ^designation[=].value = "Neonatologia"
 
-* #7 "Geriatrics (GER)"
-* #7 ^designation[0].language = #de-CH
-* #7 ^designation[=].value = "Geriatrie (GER)"
-* #7 ^designation[+].language = #fr-CH
-* #7 ^designation[=].value = "Gériatrie (GER)"
-* #7 ^designation[+].language = #it-CH
-* #7 ^designation[=].value = "Geriatria (GER)"
+* #GER "Geriatrics"
+* #GER ^designation[0].language = #de-CH
+* #GER ^designation[=].value = "Geriatrie"
+* #GER ^designation[+].language = #fr-CH
+* #GER ^designation[=].value = "Gériatrie"
+* #GER ^designation[+].language = #it-CH
+* #GER ^designation[=].value = "Geriatria"
 
-* #8 "Psychiatry (PSY)"
-* #8 ^designation[0].language = #de-CH
-* #8 ^designation[=].value = "Psychiatrie (PSY)"
-* #8 ^designation[+].language = #fr-CH
-* #8 ^designation[=].value = "Psychiatrie (PSY)"
-* #8 ^designation[+].language = #it-CH
-* #8 ^designation[=].value = "Psichiatria (PSY)"
+* #PSY "Psychiatry"
+* #PSY ^designation[0].language = #de-CH
+* #PSY ^designation[=].value = "Psychiatrie"
+* #PSY ^designation[+].language = #fr-CH
+* #PSY ^designation[=].value = "Psychiatrie"
+* #PSY ^designation[+].language = #it-CH
+* #PSY ^designation[=].value = "Psichiatria"
 
-* #9 "Rehabilitation (RHB)"
-* #9 ^designation[0].language = #de-CH
-* #9 ^designation[=].value = "Rehabilitation (RHB)"
-* #9 ^designation[+].language = #fr-CH
-* #9 ^designation[=].value = "Réhabilitation (RHB)"
-* #9 ^designation[+].language = #it-CH
-* #9 ^designation[=].value = "Riabilitazione (RHB)"
+* #RHB "Rehabilitation"
+* #RHB ^designation[0].language = #de-CH
+* #RHB ^designation[=].value = "Rehabilitation"
+* #RHB ^designation[+].language = #fr-CH
+* #RHB ^designation[=].value = "Réhabilitation"
+* #RHB ^designation[+].language = #it-CH
+* #RHB ^designation[=].value = "Riabilitazione"
 
-* #10 "Long-term care (LTC)"
-* #10 ^designation[0].language = #de-CH
-* #10 ^designation[=].value = "Langzeitpflege (LTC)"
-* #10 ^designation[+].language = #fr-CH
-* #10 ^designation[=].value = "Soins de longue durée (LTC)"
-* #10 ^designation[+].language = #it-CH
-* #10 ^designation[=].value = "Lungodegenza (LTC)"
+* #LTC "Long-term care"
+* #LTC ^designation[0].language = #de-CH
+* #LTC ^designation[=].value = "Langzeitpflege"
+* #LTC ^designation[+].language = #fr-CH
+* #LTC ^designation[=].value = "Soins de longue durée"
+* #LTC ^designation[+].language = #it-CH
+* #LTC ^designation[=].value = "Lungodegenza"
 
-* #11 "Other (OTH)"
-* #11 ^designation[0].language = #de-CH
-* #11 ^designation[=].value = "Sonstige (OTH)"
-* #11 ^designation[+].language = #fr-CH
-* #11 ^designation[=].value = "Autre (OTH)"
-* #11 ^designation[+].language = #it-CH
-* #11 ^designation[=].value = "Altre (OTH)"
+* #OTH "Other"
+* #OTH ^designation[0].language = #de-CH
+* #OTH ^designation[=].value = "Sonstige"
+* #OTH ^designation[+].language = #fr-CH
+* #OTH ^designation[=].value = "Autre"
+* #OTH ^designation[+].language = #it-CH
+* #OTH ^designation[=].value = "Altre"
 
-* #12 "Mixed (MIX)"
-* #12 ^designation[0].language = #de-CH
-* #12 ^designation[=].value = "Gemischt (MIX)"
-* #12 ^designation[+].language = #fr-CH
-* #12 ^designation[=].value = "Mixte (MIX)"
-* #12 ^designation[+].language = #it-CH
-* #12 ^designation[=].value = "Misto (MIX)"
+* #MIX "Mixed"
+* #MIX ^designation[0].language = #de-CH
+* #MIX ^designation[=].value = "Gemischt"
+* #MIX ^designation[+].language = #fr-CH
+* #MIX ^designation[=].value = "Mixte"
+* #MIX ^designation[+].language = #it-CH
+* #MIX ^designation[=].value = "Misto"
 
