@@ -1,8 +1,8 @@
 {
   "package-id": "ch.fhir.ig.swissnoso",
   "title": "Swissnoso Implementation Guide (R4)",
-  "introduction": "Implementation Guide (R4) for ...",
-  "category": "National Base",
+  "introduction": "Implementation guide to specify the exchange format for data transmission to Swissnoso in the context of monitoring and prevention of healthcare-associated infections.",
+  "category": "Public Health",
   "canonical": "http://fhir.ch/ig/swissnoso",
   "list": [
     {
@@ -14,7 +14,7 @@
     },
     {
       "version": "0.1.0",
-      "date": "2022-02-03",
+      "date": "2022-04-11",
       "desc": "Draft publication for public comment: «CAUTI Surveillance» - Case-by-case reporting of all patients with a urinary catheter",
       "path": "http://fhir.ch/ig/swissnoso",
       "status": "trial-use",
