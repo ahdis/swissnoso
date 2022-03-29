@@ -1,21 +1,7 @@
 
 All significant changes to this FHIR implementation guide will be documented on this page.
 
-### v1.0.0 (planned)
-Final publication: «CAUTI Surveillance» - Case-by-case reporting of all patients with a urinary catheter
-
-
-
-#### Added
-* 
-
-#### Changed / Updated
-* 
-
-#### Fixed
-* 
-
-### v0.1.0 (tbd.tbd.2022)
+### v0.1.0 (11.04.2022)
 Draft publication for public comment: «CAUTI Surveillance» - Case-by-case reporting of all patients with a urinary catheter
 
 #### Open Issues
