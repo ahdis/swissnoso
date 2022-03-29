@@ -24,7 +24,7 @@ use in European acute care hospitals – protocol version 5.3. Stockholm: ECDC; 
 * #2 ^designation[+].language = #fr-CH
 * #2 ^designation[=].value = "Chirurgie du tractus digestif (SURDIG)"
 * #2 ^designation[+].language = #it-CH
-* #2 ^designation[=].value = "Chirurgia del trato digestivo (SURDIG)"
+* #2 ^designation[=].value = "Chirurgia del tratto digestivo (SURDIG)"
 
 * #3 "Orthopaedics and surgical traumatology (SURORTR)"
 * #3 ^designation[0].language = #de-CH
