@@ -12,14 +12,14 @@ Description: "Example of a Swissnoso message (UC 44371)"
 * entry[+].fullUrl = "http://example.ch/fhir/Procedure/RemoveCatheter-20210709-44371210708"
 * entry[=].resource = RemoveCatheter-20210709-44371210708
 // all other entries
-* entry[+].fullUrl = "http://example.ch/fhir/Patient/LisaGuggisberg"
-* entry[=].resource = LisaGuggisberg
+* entry[+].fullUrl = "http://example.ch/fhir/Patient/GiuliaRossi"
+* entry[=].resource = GiuliaRossi
 * entry[+].fullUrl = "http://example.ch/fhir/Encounter/Encounter-44371210708"
 * entry[=].resource = Encounter-44371210708
-* entry[+].fullUrl = "http://example.ch/fhir/Organization/SpitalTannenwald"
-* entry[=].resource = SpitalTannenwald
-* entry[+].fullUrl = "http://example.ch/fhir/Location/BettenstationTannenwald"
-* entry[=].resource = BettenstationTannenwald
+* entry[+].fullUrl = "http://example.ch/fhir/Organization/OspedaleSantaMaria"
+* entry[=].resource = OspedaleSantaMaria
+* entry[+].fullUrl = "http://example.ch/fhir/Location/DegenzaSantaMaria"
+* entry[=].resource = DegenzaSantaMaria
 
 * entry[+].fullUrl = "http://example.ch/fhir/Observation/Symptoms1-20210709-44371210708"
 * entry[=].resource = Symptoms1-20210709-44371210708

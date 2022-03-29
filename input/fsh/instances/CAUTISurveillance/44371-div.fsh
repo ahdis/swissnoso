@@ -4,24 +4,24 @@ InstanceOf: SwissnosoEncounter
 Usage: #example
 Title: "Encounter 44371210708"
 Description: "Example of a Swissnoso encounter (UC 44371)"
-* identifier[VisitNumber].system = "http://fhir.tannenwald.ch/fid"
+* identifier[VisitNumber].system = "http://fhir.santamaria.ch/fid"
 * identifier[VisitNumber].value = "44371210708"
 * status = #finished
 * class = $v3-ActCode#IMP "inpatient encounter"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * period.start = "2021-07-08"
 * period.end = "2021-07-16"
-* serviceProvider = Reference(SpitalTannenwald)
-* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#2 "Medizin (MED)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#22 "Allgemeinmedizin (MEDGEN)"
+* serviceProvider = Reference(OspedaleSantaMaria)
+* extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#2 "Medicina (MED)"
+* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#22 "Medicina interna, medicina generale (MEDGEN)"
 
 
-Instance: LisaGuggisberg
+Instance: GiuliaRossi
 InstanceOf: SwissnosoPatient
 Usage: #example
-Title: "Lisa Guggisberg"
+Title: "Giulia Rossi"
 Description: "Example of a Swissnoso patient (UC 44371)"
-* identifier[LocalPid].system = "http://fhir.tannenwald.ch/pid"
+* identifier[LocalPid].system = "http://fhir.santamaria.ch/pid"
 * identifier[LocalPid].value = "44371"
 * gender = #female
 * birthDate = "1943"
@@ -34,11 +34,11 @@ Usage: #example
 Title: "Insert Catheter (08.07.2021)"
 Description: "Example of a Swissnoso procedure (UC 44371)"
 * status = #completed
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * performedDateTime = "2021-07-08"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(BettenstationTannenwald)
-* reasonCode = $swissnoso-indication#1 "Harnverhalt"
+* location = Reference(DegenzaSantaMaria)
+* reasonCode = $swissnoso-indication#1 "Ritenzione urinaria"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-44371210708)
 * extension[sequenceNumber].valuePositiveInt = 1
@@ -50,7 +50,7 @@ Usage: #example
 Title: "Remove Catheter (09.07.2021)"
 Description: "Example of a Swissnoso procedure (UC 44371)"
 * status = #completed
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * performedDateTime = "2021-07-09"
 * code = $sct#43748006 "Removal of urinary bladder catheter (procedure)"
 * encounter = Reference(Encounter-44371210708)
@@ -66,7 +66,7 @@ Title: "Symptoms 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#75325-1 "Symptom"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueBoolean = true
@@ -85,8 +85,8 @@ Usage: #example
 Title: "No Fever 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#1 "Febbre >38.0 °C (orecchio)"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
@@ -97,8 +97,8 @@ Usage: #example
 Title: "Suprapubic Tenderness 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#2 "Suprapubische Druckdolenz"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#2 "Sensibilità alla pressione sovrapubica"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueBoolean = true
@@ -109,8 +109,8 @@ Usage: #example
 Title: "No Angle Pain or Tenderness 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#3 "Flankenschmerzen oder -klopfdolenz"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#3 "Dolori o sensibilità alla percussione dei fianchi"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
@@ -121,8 +121,8 @@ Usage: #example
 Title: "No Urinary Urgency 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#4 "Harndrang"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#4 "Urgenza urinaria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
@@ -133,8 +133,8 @@ Usage: #example
 Title: "No Urinary Frequency 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#5 "Pollakisurie"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#5 "Pollachiuria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
@@ -145,8 +145,8 @@ Usage: #example
 Title: "No Dysuria 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#6 "Dysurie"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#6 "Disuria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-09"
 * valueBoolean = false
@@ -159,7 +159,7 @@ Usage: #example
 Title: "Microbiology 1 (09.07.2021)"
 Description: "Example of a Swissnoso procedure (UC 44371)"
 * status = #completed
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * performedDateTime = "2021-07-09"
 * code = $sct#269934003 "Microbiology (procedure)"
 * encounter = Reference(Encounter-44371210708)
@@ -174,7 +174,7 @@ Title: "Number of Different Germs (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $swissnoso#number-germs "Number of different germs"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
 * valueCodeableConcept = $swissnoso-number-of-different-germs#1 "1"
@@ -189,7 +189,7 @@ Title: "Germ 1 (09.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#87829-8 "Bacteria [Presence] in Urine"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-09"
 * partOf = Reference(Microbiology1-20210709-44371210708)
@@ -208,7 +208,7 @@ Title: "Symptoms 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#75325-1 "Symptom"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueBoolean = true
@@ -227,8 +227,8 @@ Usage: #example
 Title: "No Fever 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#1 "Fieber >38.0°C (Ohr)"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#1 "Febbre >38.0 °C (orecchio)"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-14"
 * valueBoolean = false
@@ -239,8 +239,8 @@ Usage: #example
 Title: "Suprapubic Tenderness 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#2 "Suprapubische Druckdolenz"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#2 "Sensibilità alla pressione sovrapubica"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueBoolean = true
@@ -251,8 +251,8 @@ Usage: #example
 Title: "No Angle Pain or Tenderness 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#3 "Flankenschmerzen oder -klopfdolenz"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#3 "Dolori o sensibilità alla percussione dei fianchi"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 //* effectiveDateTime = "2021-07-14"
 * valueBoolean = false
@@ -263,8 +263,8 @@ Usage: #example
 Title: "Urinary Urgency 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#4 "Harndrang"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#4 "Urgenza urinaria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueBoolean = true
@@ -275,8 +275,8 @@ Usage: #example
 Title: "Urinary Frequency 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#5 "Pollakisurie"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#5 "Pollachiuria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueBoolean = true
@@ -287,8 +287,8 @@ Usage: #example
 Title: "Dysuria 2 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
-* code = $swissnoso-clinical-symptom#6 "Dysurie"
-* subject = Reference(LisaGuggisberg)
+* code = $swissnoso-clinical-symptom#6 "Disuria"
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueBoolean = true
@@ -301,7 +301,7 @@ Usage: #example
 Title: "Microbiology 2 (14.07.2021)"
 Description: "Example of a Swissnoso procedure (UC 44371)"
 * status = #completed
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * performedDateTime = "2021-07-14"
 * code = $sct#269934003 "Microbiology (procedure)"
 * encounter = Reference(Encounter-44371210708)
@@ -316,7 +316,7 @@ Title: "Number of Different Germs (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $swissnoso#number-germs "Number of different germs"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * valueCodeableConcept = $swissnoso-number-of-different-germs#1 "1"
@@ -331,7 +331,7 @@ Title: "Germ 1 (14.07.2021)"
 Description: "Example of a Swissnoso observation (UC 44371)"
 * status = #final
 * code = $lnc#87829-8 "Bacteria [Presence] in Urine"
-* subject = Reference(LisaGuggisberg)
+* subject = Reference(GiuliaRossi)
 * encounter = Reference(Encounter-44371210708)
 * effectiveDateTime = "2021-07-14"
 * partOf = Reference(Microbiology2-20210714-44371210708)

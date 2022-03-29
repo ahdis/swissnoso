@@ -27,19 +27,38 @@ Description: "Example of a Swissnoso location"
 
 
 // Bellevue
-Instance: SpitalBellevue
+Instance: HopitalBellevue
 InstanceOf: SwissnosoOrganization
 Usage: #example
-Title: "Spital Bellevue"
+Title: "Hôpital Bellevue"
 Description: "Example of a Swissnoso organization"
 * identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
 * identifier[swissnoso].value = "1357"
 
-Instance: BettenstationBellevue
+Instance: UniteHospitaliereBellevue
 InstanceOf: SwissnosoLocation
 Usage: #example
-Title: "Bettenstation Bellevue"
+Title: "Unité hospitalière Bellevue"
 Description: "Example of a Swissnoso location"
-* name = "Bettenstation Bellevue"
-* physicalType = $swissnoso-procedure-location#2 "Bettenstation"
-* managingOrganization = Reference(SpitalBellevue)
+* name = "Unité hospitalière Bellevue"
+* physicalType = $swissnoso-procedure-location#2 "Unité hospitalière"
+* managingOrganization = Reference(HopitalBellevue)
+
+
+// Santa Maria
+Instance: OspedaleSantaMaria
+InstanceOf: SwissnosoOrganization
+Usage: #example
+Title: "Ospedale Santa Maria"
+Description: "Example of a Swissnoso organization"
+* identifier[swissnoso].system = "http://fhir.swissnoso.ch/clinic-number"
+* identifier[swissnoso].value = "9876"
+
+Instance: DegenzaSantaMaria
+InstanceOf: SwissnosoLocation
+Usage: #example
+Title: "Degenza Santa Maria"
+Description: "Example of a Swissnoso location"
+* name = "Degenza Santa Maria"
+* physicalType = $swissnoso-procedure-location#2 "Degenza"
+* managingOrganization = Reference(OspedaleSantaMaria)

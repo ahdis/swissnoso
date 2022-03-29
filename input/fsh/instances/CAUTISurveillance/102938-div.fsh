@@ -11,9 +11,9 @@ Description: "Example of a Swissnoso encounter (UC 102938)"
 * subject = Reference(JeanLucRichard)
 * period.start = "2021-07-10"
 * period.end = "2021-07-21"
-* serviceProvider = Reference(SpitalBellevue)
+* serviceProvider = Reference(HopitalBellevue)
 * extension[organizationalUnit].extension[unit].valueCoding = $ecdc-ward-specialty#1 "Chirurgie (SUR)"
-* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#2 "Abdominalchirurgie (SURDIG)"
+* extension[organizationalUnit].extension[specialty].valueCoding = $ecdc-patient-consultant-specialty#2 "Chirurgie du tractus digestif (SURDIG)"
 * extension[admissionDateMonitoredUnit].valueDateTime = "2021-07-12"
 * extension[dischargeDateMonitoredUnit].valueDateTime = "2021-07-21"
 
@@ -39,8 +39,8 @@ Description: "Example of a Swissnoso procedure (UC 102938)"
 * subject = Reference(JeanLucRichard)
 * performedDateTime = "2021-07-12"
 * code = $sct#410024004 "Catheterization of urinary bladder (procedure)"
-* location = Reference(BettenstationBellevue)
-* reasonCode = $swissnoso-indication#1 "Harnverhalt"
+* location = Reference(UniteHospitaliereBellevue)
+* reasonCode = $swissnoso-indication#1 "Rétention urinaire"
 * extension[transurethralProcedure].valueBoolean = false
 * encounter = Reference(Encounter-102938210710)
 * extension[sequenceNumber].valuePositiveInt = 1

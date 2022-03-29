@@ -16,10 +16,10 @@ Description: "Example of a Swissnoso message (UC 102938)"
 * entry[=].resource = JeanLucRichard
 * entry[+].fullUrl = "http://example.ch/fhir/Encounter/Encounter-102938210710"
 * entry[=].resource = Encounter-102938210710
-* entry[+].fullUrl = "http://example.ch/fhir/Organization/SpitalBellevue"
-* entry[=].resource = SpitalBellevue
-* entry[+].fullUrl = "http://example.ch/fhir/Location/BettenstationBellevue"
-* entry[=].resource = BettenstationBellevue
+* entry[+].fullUrl = "http://example.ch/fhir/Organization/HopitalBellevue"
+* entry[=].resource = HopitalBellevue
+* entry[+].fullUrl = "http://example.ch/fhir/Location/UniteHospitaliereBellevue"
+* entry[=].resource = UniteHospitaliereBellevue
 
 
 

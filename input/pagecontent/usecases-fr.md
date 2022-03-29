@@ -19,11 +19,11 @@ Overview organizational units).
 L'hôpital de Tannenwald transmet les données du cas du patient Fridolin Müller à Swissnoso dans le cadre de la CAUTI Surveillance.
 
 ##### UC 44371
-Madame Lisa Guggisberg, née en 1943, est admise dans l'unité de médecine de l'hôpital de Tannenwald le 08.07.2021 (médecine générale). L'administration de l'hôpital ouvre un cas portant le numéro 44371210708.   
+Madame Giulia Rossi, née en 1943, est admise dans l'unité de médecine de l'hôpital de Santa Maria le 08.07.2021 (médecine générale). L'administration de l'hôpital ouvre un cas portant le numéro 44371210708.   
 En raison d'une rétention urinaire, on lui pose le jour même une sonde vésicale dans l'unité hospitalière. Comme la patiente présente des symptômes et se plaint notamment de douleurs sous-pubiennes, on lui retire la sonde vésicale le 09.07.2021 et on prélève un échantillon d'urine. L'analyse microbiologique détecte un germe, à savoir E. coli, présent dans l'urine à raison de <10E5 CFU/ml. On renonce donc à lui administrer des antibiotiques.   
-Quelques jours plus tard, à savoir le 14.07.2021, on observe chez Lisa Guggisberg d'autres symptômes trahissant une infection des voies urinaires, en plus des douleurs sus-pubiennes. Lisa Guggisberg ressent un besoin persistant d'uriner, assorti de fortes douleurs à la miction ; elle doit souvent uriner de petites quantités. Une nouvelle analyse microbiologique effectuée le 14.07.2021 en raison d'une suspicion d'infection révèle à nouveau la présence d'un germe E.coli présent cette fois dans l'urine à raison de >=10E5 CFU/ml. Lisa Guggisberg se voit donc prescrire des antibiotiques et sort de l'hôpital le 16.07.2021.
+Quelques jours plus tard, à savoir le 14.07.2021, on observe chez Giulia Rossi d'autres symptômes trahissant une infection des voies urinaires, en plus des douleurs sus-pubiennes. Giulia Rossi ressent un besoin persistant d'uriner, assorti de fortes douleurs à la miction ; elle doit souvent uriner de petites quantités. Une nouvelle analyse microbiologique effectuée le 14.07.2021 en raison d'une suspicion d'infection révèle à nouveau la présence d'un germe E.coli présent cette fois dans l'urine à raison de >=10E5 CFU/ml. Giulia Rossi se voit donc prescrire des antibiotiques et sort de l'hôpital le 16.07.2021.
 
-L'hôpital de Tannenwald transmet les données du cas de la patiente Lisa Guggisberg à Swissnoso dans le cadre de la CAUTI Surveillance.
+L'hôpital de Santa Maria transmet les données du cas de la patiente Giulia Rossi à Swissnoso dans le cadre de la CAUTI Surveillance.
 
 ##### UC 102938
 Monsieur Jean-Luc Richard, né en 1945, est admis le 10.07.2021 dans l'unité de médecine de l'hôpital de Bellevue dont les unités de chirurgie et de médecine intensive participent à la CAUTI Surveillance. Il présente des douleurs diffuses au niveau de l'estomac, des nausées et de la fièvre (38.1°C). L'administration de l'hôpital ouvre un cas portant le numéro 102938210710.   
