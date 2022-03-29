@@ -35,9 +35,9 @@ pages:
   usecases-de.md:
     title: Anwendungsfälle
   usecases-fr.md:
-    title: Cas d’application
+    title: Cas d'application
   usecases-it.md:
-    title: Casi di applicazione      
+    title: Casi concreti     
   message.md:
     title: Message
   profiles.md:
