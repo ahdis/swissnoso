@@ -9,13 +9,12 @@ Description: "This profile constrains the Patient resource to represent the char
 * identifier[LocalPid]. ^short = "Patient number (PID)"
 * identifier[LocalPid] 1..1
 
-* gender. ^short = "Gender (male, female)"
+* gender. ^short = "Gender (male | female | other)"
 * gender 1..
-* gender obeys swissnoso-pat-1
 
 * birthDate. ^short = "Year of birth (format: YYYY)"
 * birthDate 1..
-* birthDate obeys swissnoso-pat-2
+* birthDate obeys swissnoso-pat-1
 
 
 // --------------- Mapping --------------- //

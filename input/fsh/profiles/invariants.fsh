@@ -1,9 +1,4 @@
 Invariant: swissnoso-pat-1
-Description: "Gender must be 'male' or 'female'"
-Expression: "value = 'male' or value = 'female'"
-Severity: #error
-
-Invariant: swissnoso-pat-2
 Description: "The format 'YYYY' must be used"
 Expression: "value.length() = 4"
 Severity: #error
