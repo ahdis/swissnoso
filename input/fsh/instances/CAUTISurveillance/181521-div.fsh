@@ -224,7 +224,7 @@ Description: "Example of a Swissnoso observation (UC 181521)"
 * effectiveDateTime = "2021-07-06"
 * partOf = Reference(Microbiology-20210706-181521210706)
 * component[bacteria].code = $lnc#630-4	"Bacteria identified in Urine by Culture"
-* component[bacteria].valueCodeableConcept = $swissnoso-germ#1 "E. coli"
+* component[bacteria].valueCodeableConcept = $sct#112283007 "Escherichia coli (organism)"
 * component[bacterialCount].code = $lnc#51480-2 "Bacteria [#/volume] in Urine by Automated count"
 * component[bacterialCount].valueCodeableConcept = $swissnoso-bacterial-count-in-urine#2 ">=10E5 CFU/ml"
 
@@ -240,6 +240,6 @@ Description: "Example of a Swissnoso observation (UC 181521)"
 * effectiveDateTime = "2021-07-06"
 * partOf = Reference(Microbiology-20210706-181521210706)
 * component[bacteria].code = $lnc#630-4	"Bacteria identified in Urine by Culture"
-* component[bacteria].valueCodeableConcept = $swissnoso-germ#4 "Enterococcus sp."
+* component[bacteria].valueCodeableConcept = $sct#2785000 "Genus Enterococcus (organism)"
 * component[bacterialCount].code = $lnc#51480-2 "Bacteria [#/volume] in Urine by Automated count"
 * component[bacterialCount].valueCodeableConcept = $swissnoso-bacterial-count-in-urine#2 ">=10E5 CFU/ml"

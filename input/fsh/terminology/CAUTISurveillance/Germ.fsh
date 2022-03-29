@@ -1,10 +1,16 @@
-CodeSystem: SwissnosoGerm
+ValueSet: SwissnosoGerm
 Id: swissnoso-germ
 Title: "Swissnoso Germ"
-Description: "This code system contains codes defined by Swissnoso for representing the germ."
-* ^caseSensitive = false
-* ^content = #complete
+Description: "This value set includes the SNOMED CT codes for representing the germ."
 
+* $sct#112283007 "Escherichia coli (organism)"
+* $sct#50517009 "Genus Proteus (organism)"
+* $sct#75032006 "Genus Klebsiella (organism)"
+* $sct#2785000 "Genus Enterococcus (organism)"
+* $sct#52499004 "Pseudomonas aeruginosa (organism)"
+* $sct#74964007 "Other (qualifier value)"
+
+/*
 * #1 "E. coli"
 * #1 ^designation[0].language = #de-CH
 * #1 ^designation[=].value = "E. coli"
@@ -52,11 +58,4 @@ Description: "This code system contains codes defined by Swissnoso for represent
 * #6 ^designation[=].value = "Autre germe"
 * #6 ^designation[+].language = #it-CH
 * #6 ^designation[=].value = "Altro batterio"
-
-
-
-ValueSet: SwissnosoGerm
-Id: swissnoso-germ
-Title: "Swissnoso Germ"
-Description: "This value set includes the codes defined in the code system 'Swissnoso Germ'."
-* include codes from system SwissnosoGerm
+*/

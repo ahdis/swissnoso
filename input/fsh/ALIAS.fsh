@@ -16,7 +16,6 @@ Alias:   $ChCoreLocation =              http://fhir.ch/ig/ch-core/StructureDefin
 Alias:   $swissnoso =                             http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso
 Alias:   $swissnoso-procedure-location =          http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-procedure-location
 Alias:   $swissnoso-indication =                  http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-indication
-Alias:   $swissnoso-germ =                        http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-germ
 Alias:   $swissnoso-clinical-symptom =            http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-clinical-symptom
 Alias:   $swissnoso-number-of-different-germs =   http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-number-of-different-germs
 Alias:   $swissnoso-bacterial-count-in-urine =    http://fhir.ch/ig/swissnoso/CodeSystem/swissnoso-bacterial-count-in-urine
