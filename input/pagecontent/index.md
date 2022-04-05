@@ -1,5 +1,5 @@
 <div markdown="1" class="stu-note">
-This implementation guide is in a **public feedback phase** until May 13, 2022. If you have any feedback or other questions, please contact [Judith Maag](mailto:judith.maag@swissnoso.ch) at Swissnoso directly.
+This implementation guide is in a **public feedback phase** until May 13, 2022. If you have any feedback or other questions, please contact the [CAUTI Surveillance Team](mailto:cauti-surveillance@swissnoso.ch) at Swissnoso directly.
 </div>
 
 ### Introduction
