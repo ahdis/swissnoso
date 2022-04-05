@@ -28,6 +28,6 @@ L'ospedale Bellevue trasmette i [dati inerenti al caso del paziente Jean-Luc Ric
 
 #### Unità organizzative sorvegliate
 Nel caso concreto del signor Jean-Luc Richard ([UC 102938](usecases-it.html#uc-102938)) viene presentata la situazione dell'ospedale Bellevue, che partecipa alla CAUTI Surveillance con **singole unità organizzative** e non come intero ospedale. La figura che segue mostra in forma generalizzata quali dati siano rilevanti per questi casi e come si riferiscano all'unità organizzativa/alle unità organizzative oggetto della sorveglianza.   
-I dettagli sulle unità organizzative sorvegliate figurano a pag. 9 del [Manuale di sorveglianza](https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_I/220228_Swissnoso_CAUTI_Surveillance_Manuale_V1.2.pdf).
+I dettagli sulle unità organizzative sorvegliate figurano a pag. 9 del [Manuale di sorveglianza](https://www.swissnoso.ch/it/moduli/cauti-surveillance/materiale/manuale-e-modulo).
 
 {% include img.html img="overview-organizational-units.png" caption="Fig.: Overview organizational units" width="80%" %}

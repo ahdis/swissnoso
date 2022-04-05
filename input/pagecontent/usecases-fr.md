@@ -30,6 +30,6 @@ L'hôpital de Bellevue transmet les [données du cas du patient Jean-Luc Richard
 
 #### Unités surveillées
 Le cas d'application de Monsieur Jean-Luc Richard ([UC 102938](usecases-fr.html#uc-102938)) présente la situation de l'hôpital Bellevue, qui participe à la CAUTI Surveillance avec **certaines unités seulement**. L'illustration ci-dessous est une présentation généralisée de ces cas, des données pertinentes et de leur lien avec l'unité ou les unités surveillées.   
-Le [Manuel de surveillance](https://www.swissnoso.ch/fileadmin/module/cauti_surveillance/Dokumente_F/220228_Swissnoso_CAUTI_Surveillance_manuel_V1.2.pdf) fournit en page 9 plus de détails sur les unités surveillées.
+Le [Manuel de surveillance](https://www.swissnoso.ch/fr/modules/cauti-surveillance/materiel/manuel-e-formulaire) fournit en page 9 plus de détails sur les unités surveillées.
 
 {% include img.html img="overview-organizational-units.png" caption="Fig.: Overview organizational units" width="80%" %}
