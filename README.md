@@ -4,5 +4,5 @@
 The purpose of this implementation guide is to specify the exchange format for data transmission within the framework of the [Swissnoso CAUTI Surveillance module](https://www.swissnoso.ch/module/cauti-surveillance/ueber-cauti-surveillance/das-modul) based on the [FHIR®](https://www.hl7.org/fhir/) standard from [HL7®](https://www.hl7.org/).
 
 ## Links
-* Implementation Guide & [CI Build](http://build.fhir.org/ig/ahdis/swissnoso/index.html)
-* Publication History & [Releases](https://github.com/ahdis/swissnoso/releases)
+* [Implementation Guide](https://fhir.ch/ig/swissnoso/index.html) & [CI Build](http://build.fhir.org/ig/ahdis/swissnoso/index.html)
+* [Publication History](http://fhir.ch/ig/swissnoso/history.html) & [Releases](https://github.com/ahdis/swissnoso/releases)
