@@ -1,7 +1,3 @@
-<div markdown="1" class="stu-note">
-This implementation guide is in a **public feedback phase** until May 13, 2022. If you have any feedback or other questions, please contact the [CAUTI Surveillance Team](mailto:cauti-surveillance@swissnoso.ch) at Swissnoso directly.
-</div>
-
 ### Introduction
 
 [Swissnoso](https://www.swissnoso.ch/) is dedicated to the reduction of nosocomial infections and multi-resistant germs. For the monitoring and prevention of healthcare-associated infections, [various modules](https://www.swissnoso.ch/module/uebersicht-module) are available. A key element of the monitoring modules is the regular delivery of module-specific data to Swissnoso.
